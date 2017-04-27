@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.KPI_ВводПрекращениеНачислений.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DocumentJournal.KPI_КадровыеДокументы.StandardCommand.OpenList</commands>
+      <commands>Document.KPI_НачисленияСотрудников.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.KPI_Начисления.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ГрафикиРабот.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ПоказателиРасчета.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_Шкалы.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.KPI_Календари</commands>
+      <commands>Document.KPI_ВводПрекращениеНачислений.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.KPI_ГрафикиРаботыСотрудников.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

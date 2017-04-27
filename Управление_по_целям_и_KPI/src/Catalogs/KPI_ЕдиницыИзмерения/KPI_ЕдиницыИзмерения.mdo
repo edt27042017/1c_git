@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58f0755e-df9b-4ef5-8946-200fe9d80669">
+  <producedTypes>
+    <objectType typeId="698eccfa-f404-4c45-ad11-0c81ca85d803" valueTypeId="c82df112-5216-49da-a7c1-0d31ea1ac755"/>
+    <refType typeId="a03b4966-6917-4508-b495-326e3a21e48e" valueTypeId="dc7b1ac9-9b0d-4847-b9e9-315452077d85"/>
+    <selectionType typeId="80707d20-25e0-4100-9a01-3d977315d2e5" valueTypeId="0915cc02-09fd-4bfc-83f8-34e56f8a8aeb"/>
+    <listType typeId="a49a564c-7a42-4fb4-aa87-ae776d1fd6aa" valueTypeId="9665bfe8-67fd-4a86-b5b9-8aa00b5f923d"/>
+    <managerType typeId="9e966261-5d84-48a8-a2dd-971c5e10ef19" valueTypeId="f090ff7f-ca5f-464e-b5cf-753b28203e11"/>
+  </producedTypes>
+  <name>KPI_ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="633266cd-e69a-4308-a9c7-7dec8dc40332">
+      <name>Процент</name>
+      <description>%</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="4a3b86e5-fccb-4972-9aaf-12c0dc1d9838">
+      <name>Единица</name>
+      <description>ед</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="57f70513-4ed5-4e9f-bc8b-eef46bf92a2f">
+      <name>Килограмм</name>
+      <description>кг</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="615a5402-c2a9-4050-9f99-d0f9ce0840dc">
+      <name>Литр</name>
+      <description>л</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="dc819e50-02dc-430d-8938-342ba5d015dc">
+      <name>Рубль</name>
+      <description>руб</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="c052d915-b23a-44db-8017-c33a45591d71">
+      <name>Тонна</name>
+      <description>т</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="17dba1ed-d0d7-4afd-9180-6447e5c7ec60">
+      <name>Час</name>
+      <description>ч</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="05c5cc30-4415-452c-aa62-81dac414d225">
+      <name>Штука</name>
+      <description>шт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.KPI_ЕдиницыИзмерения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9f038432-d9db-462e-a127-1818dad175ec">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="63322c2e-f1af-4b79-bd6e-52d3c42b0818">
+    <name>МеждународноеСокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международное сокращение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Международное сокращение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9657181e-5426-4f70-b0aa-053b62e26bc7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="220efff7-224b-47cc-a50c-cf466002b3c0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

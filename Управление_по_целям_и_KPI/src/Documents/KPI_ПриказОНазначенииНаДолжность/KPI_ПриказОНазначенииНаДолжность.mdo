@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d505d9-5411-44fc-806b-dcbe9105e4ea">
+  <producedTypes>
+    <objectType typeId="d94f48f3-99ab-41a0-a2e0-9bf25a709838" valueTypeId="b5f135a7-8b52-4657-a1bd-fa5fa2eff15a"/>
+    <refType typeId="1f386883-6dbb-4595-aa7d-7993b7a5be8c" valueTypeId="b18c42d9-1d39-48ef-9223-76b12c9873de"/>
+    <selectionType typeId="cc3699cf-4771-47ca-ae84-547f308ddb58" valueTypeId="5e5cecec-3658-4e7a-ac71-a029ae407f34"/>
+    <listType typeId="224d0ed6-7525-498c-871d-22c16608d803" valueTypeId="621a28e5-47f3-4f4a-b56f-7c2ec198cfae"/>
+    <managerType typeId="6ec11698-f8a3-452e-b6fa-f391aec4d656" valueTypeId="d63b28d9-c95e-4323-a2b5-32c348e2e776"/>
+  </producedTypes>
+  <name>KPI_ПриказОНазначенииНаДолжность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ о назначении на должность</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.KPI_ПриказОНазначенииНаДолжность.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.KPI_ПриказОНазначенииНаДолжность.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>InformationRegister.KPI_ГрафикиРаботыСотрудников</registerRecords>
+  <registerRecords>InformationRegister.KPI_ПлановыеНачисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="da9ad096-aaf7-4fdd-9098-69c016d49179">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7e19722e-2d3c-4fdc-8f78-0992f21f3b7b">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9841dc42-e698-4365-bb06-ccb27fb314c5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="eca3fdf7-2b4a-43e1-a094-a5ea43d7c855">
+    <producedTypes>
+      <objectType typeId="21805f0c-71ec-469f-bfd6-4c10351ec311" valueTypeId="3b2d393d-1773-4d04-bf92-437f093330d9"/>
+      <rowType typeId="563ca090-5575-4286-8ba9-0de50c127b1e" valueTypeId="d4bdc58f-b882-4e1a-9769-817137b9a879"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="13a63d4a-1fa1-4e4b-b66b-cde2f57fee17">
+      <name>СтруктураКомпании</name>
+      <synonym>
+        <key>ru</key>
+        <value>Структура компании</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_СтруктураКомпании</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Структура компании</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f12a958-1283-4281-bfad-ee0692ba213c">
+      <name>ФизЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Физическое лицо</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d376cf33-f662-4f5b-baee-ffb3ab906b49">
+      <name>Квалификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квалификация</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Квалификации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Квалификация</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ba57f919-89a5-4bfc-9d26-49e9ea23578c">
+      <name>ГрафикРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>График работы</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ГрафикиРабот</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>График работы</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e0dde24d-f562-4726-9d42-54ea208f61d1">
+      <name>ИдентификаторПользователяИБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор пользователя ИБ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>UUID</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор пользователя ИБ</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </attributes>
+    <attributes uuid="aaab1871-505d-440d-b699-1858167f41d6">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="02e587db-cc51-4864-9c38-88b3c582dd11">
+    <producedTypes>
+      <objectType typeId="9954b474-f810-4901-9d45-71f833a11683" valueTypeId="39c20cae-a03a-468a-a287-7024ef29651f"/>
+      <rowType typeId="0f82eda2-67b1-4905-be54-c9c4f074bdea" valueTypeId="8399fa2f-e221-45be-9401-b7cbcbfc66ab"/>
+    </producedTypes>
+    <name>ПлановыеНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые начисления</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>* Дописать !!! Плановые начисления</value>
+    </toolTip>
+    <attributes uuid="75a389da-ea63-44bb-ae88-11d48fac82f8">
+      <name>СтруктураКомпании</name>
+      <synonym>
+        <key>ru</key>
+        <value>Структура компании</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_СтруктураКомпании</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Структура компании</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fccf0ce8-6aa9-4377-84e9-d923e2c47288">
+      <name>Начисление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начисление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>ChartOfCalculationTypesRef.KPI_Начисления</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Начисление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="41b80afa-5285-49b3-95b0-6cecf2ea9e77">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d824ce1-babb-4903-9631-d273d2aa7cd1">
+  <producedTypes>
+    <selectionType typeId="c3b78c49-89d2-45ff-88ed-da22193255c2" valueTypeId="a271e04b-a300-4328-9115-d5153ca2c056"/>
+    <listType typeId="7d0d52d3-3cee-47bf-9a62-8fe15b5a8cc1" valueTypeId="d4ba1a59-b5d1-44f5-9a9d-23ed234fc198"/>
+    <managerType typeId="772b01c9-5ed9-475b-ab09-1d1ad3ae52e4" valueTypeId="8216c48e-8d12-4a0f-93c2-af3510f7ff6a"/>
+    <recordSetType typeId="633f03c1-3fe3-4690-9630-48074102c112" valueTypeId="2a8d5442-ffc9-4f0f-859e-d7c5cc10daf5"/>
+    <recordKeyType typeId="de3c66d2-2239-4cb6-9356-663b70871ce9" valueTypeId="e31f394f-c85e-44ca-994e-7b65ca915ee1"/>
+    <recordType typeId="5ec7fb25-40f2-45fd-9fa5-4656e8bc50bf" valueTypeId="5d121419-867c-49db-aa20-2d06f7ed93ed"/>
+    <recordManagerType typeId="145b189c-4fe7-4bd7-b634-54185c6b4dbf" valueTypeId="3cc7ca45-8f03-4c78-a278-b1e7e68c78e8"/>
+  </producedTypes>
+  <name>KPI_ФотоСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фото сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.KPI_ФотоСотрудников.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.KPI_ФотоСотрудников.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="68160b06-679a-4cb9-96f1-aa5f96770484">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фото</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <resources uuid="e0ac3d53-0e00-4065-80d8-8be3eddc13c8">
+    <name>ФотоСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото ссылка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фото ссылка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="8bd685e4-a3f9-497f-9de5-a2a25bf7c51a">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0304d3b5-e34f-4071-a698-442c646831a1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d8ff16a-4171-4ca7-b04b-6c05633a1b8d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

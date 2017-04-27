@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b759ef2c-fea1-450d-be3c-16db054a493a">
+  <producedTypes>
+    <objectType typeId="c4fd8461-d35c-4973-966f-455ecab3a245" valueTypeId="db5f56be-f88a-4e52-85e9-65cb3a4ae33b"/>
+    <refType typeId="18569db1-0ba3-4633-9abf-2aa1da43a7e5" valueTypeId="db5eeb1f-c6ae-4bf8-b5cb-bc5c2bd02443"/>
+    <selectionType typeId="6041ac47-e337-4095-9aae-072ccde46c29" valueTypeId="4195568b-9405-4c83-9d9f-1040fe3cfcac"/>
+    <listType typeId="9fcb6044-ffa2-4e2b-a80f-5f0d956c15e5" valueTypeId="3af92b0b-c087-401b-8647-4df5abce7c4e"/>
+    <managerType typeId="4b7e0a29-6c13-4011-b928-762b80e8f03f" valueTypeId="c2f107cc-9f72-49bf-bacc-d5b76229dbd9"/>
+  </producedTypes>
+  <name>KPI_Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Филиалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Филиалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

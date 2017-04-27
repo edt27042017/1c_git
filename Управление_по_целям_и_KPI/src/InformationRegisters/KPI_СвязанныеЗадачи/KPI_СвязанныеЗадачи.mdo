@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acb40930-2f97-4361-b0b3-1a470d914974">
+  <producedTypes>
+    <selectionType typeId="e5d421e5-779e-4f73-836a-f8bbcd257996" valueTypeId="5df04288-070d-4228-9e05-c729c769f6c5"/>
+    <listType typeId="243d2961-05ca-4c55-966f-518208482f73" valueTypeId="f777777a-4933-4544-a6da-d04a8827d603"/>
+    <managerType typeId="5f4e32f7-09ca-405f-bc6f-07ebdd52f9a1" valueTypeId="c7bb6e0c-2b1e-4a90-985a-c8798b8797b7"/>
+    <recordSetType typeId="106fc343-6e50-4a9b-b22a-55cc96b86dfb" valueTypeId="e3a649b4-37e0-4528-b76b-2bc3ccf03eb6"/>
+    <recordKeyType typeId="396c1cc6-9c4a-4eb9-ac27-3468bfe05b3a" valueTypeId="735331d0-0f49-4bfc-b960-85e89d02b0f0"/>
+    <recordType typeId="562094e1-ed7f-4b9b-a735-da93c5b92c45" valueTypeId="43d3f53f-f5d7-4e1e-8711-94a062a12185"/>
+    <recordManagerType typeId="708556cb-5f90-49b2-8b12-76f72634fdbe" valueTypeId="79a8d284-0f67-4679-b387-d952186d1ce7"/>
+  </producedTypes>
+  <name>KPI_СвязанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные задачи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="cf9ae7ac-79f6-4413-aae0-90d54de2986a">
+    <name>ВидСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид связи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ВидыСвязиСмартЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид связи</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="b5cecf4f-bd42-4e26-b647-e9c7ddda908e">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.KPI_СмартЗадача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основание</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea4e71b1-8139-44d0-8841-773ca300c5ae">
+    <name>СмартЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт-задача</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.KPI_СмартЗадача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Смарт-задача</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

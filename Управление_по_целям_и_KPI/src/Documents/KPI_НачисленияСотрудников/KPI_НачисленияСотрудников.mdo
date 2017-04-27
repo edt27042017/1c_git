@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fce4dba-0332-4891-9ccc-5fcbcb9c6bc1">
+  <producedTypes>
+    <objectType typeId="e56487e3-929b-4748-908c-cf875f61608a" valueTypeId="f30e8de2-43f3-4a6b-bb80-3bcdd5ac5617"/>
+    <refType typeId="fdc564a7-1edd-4813-aeda-d73fa10e8df9" valueTypeId="2a6f8f1d-fd5e-47ac-a492-898e6c74ede2"/>
+    <selectionType typeId="37248365-eda1-47ed-bdc3-d1a45a40c905" valueTypeId="dcda5e23-5baf-4479-8ae4-2bdd1ba56010"/>
+    <listType typeId="db590de3-1d54-4717-9ffb-fd341ffef318" valueTypeId="9d4f4562-ce2e-4500-baf4-f3e4a0c54144"/>
+    <managerType typeId="c700648f-e05e-4a7c-a860-c0e85400cb6d" valueTypeId="84c4dabe-1130-4f74-9217-2643a5c19f7c"/>
+  </producedTypes>
+  <name>KPI_НачисленияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.KPI_НачисленияСотрудников.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.KPI_НачисленияСотрудников.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>CalculationRegister.KPI_Начисления</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="cd1850d1-8d96-4671-9b04-ec697f16ce1d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d19b1353-6537-4c63-a001-1bcbe4692a22">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ef557ac4-fbc9-46a3-954c-b0b6abe3b516">
+    <name>МесяцНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц начисления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Месяц начисления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0fcea81a-c9fd-44b0-9579-e4ddc70f1014">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Филиалы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Филиал</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b0ed9178-5fa1-4cbd-b122-e981054c1f39">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ПериодичностьПланирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.KPI_ПериодичностьПланирования.EnumValue.Месяц</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="81cc69c9-5b23-4818-94f7-312a6da96d88">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="836466dd-cd86-493f-9ddf-71f876097d60">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9de5bd2e-5af2-4a2a-b5f4-25ffe0d14f91">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="21ba3f4b-cbc8-4fbe-b4b7-fb5839ff60cb">
+    <producedTypes>
+      <objectType typeId="07ca40ab-6f58-437e-906c-9a2e7db54e5a" valueTypeId="31d8ed28-b5b2-476c-ab9b-6af38f1c86ba"/>
+      <rowType typeId="c7f034f9-3ac7-482d-9764-223b81f9552e" valueTypeId="bd62545a-fa61-4d81-83d0-fb51790b9146"/>
+    </producedTypes>
+    <name>Начисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисления</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Начисления</value>
+    </toolTip>
+    <attributes uuid="1aad9a2d-eee4-457e-af5c-de0c0f35f011">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект управления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Сотрудники</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект управления</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0638e670-efa3-4977-9055-e73d183f72bb">
+      <name>ВидНачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид начисления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>ChartOfCalculationTypesRef.KPI_Начисления</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид начисления</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e7139d9-3032-4186-86f8-4dfe4751277a">
+      <name>НачалоПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало периода</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Начало периода</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04dfcd23-9884-4f8b-b221-fdcc9f9377ea">
+      <name>КонецПериода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конец периода</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Конец периода</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3dd14f9f-df11-4d41-afb2-b82a17e541c0">
+      <name>Результат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начислено</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Начислено</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

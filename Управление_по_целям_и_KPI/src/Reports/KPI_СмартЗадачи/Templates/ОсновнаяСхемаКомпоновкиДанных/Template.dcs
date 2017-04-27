@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>СмартЗадачи</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПостановки</dataPath>
+			<field>ДатаПостановки</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Задача</dataPath>
+			<field>Задача</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Justify</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Top</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Размещение</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокИсполнения</dataPath>
+			<field>СрокИсполнения</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ед. изм.</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выполнена</dataPath>
+			<field>Выполнена</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Утверждена</dataPath>
+			<field>Утверждена</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проверена</dataPath>
+			<field>Проверена</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АвторПредставление</dataPath>
+			<field>АвторПредставление</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автор</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Факт</dataPath>
+			<field>Факт</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=5; ЧДЦ=1</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вес</dataPath>
+			<field>Вес</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=5; ЧДЦ=1</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентВыполнения</dataPath>
+			<field>ПроцентВыполнения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнено, %</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧЦ=5; ЧДЦ=2</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДнейПросрочено</dataPath>
+			<field>ДнейПросрочено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СмартЗадача</dataPath>
+			<field>СмартЗадача</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	KPI_СтруктураКомпанииПринятые.Период КАК Принят,
+	KPI_СтруктураКомпанииПринятые.Сотрудник КАК Сотрудник,
+	KPI_СтруктураКомпанииПринятые.СтруктураКомпании КАК СтруктураКомпании
+ПОМЕСТИТЬ Принятые
+ИЗ
+	РегистрСведений.KPI_СтруктураКомпании КАК KPI_СтруктураКомпанииПринятые
+ГДЕ
+	НЕ KPI_СтруктураКомпанииПринятые.Уволен
+	И НЕ KPI_СтруктураКомпанииПринятые.СтруктураУдалена
+	И НЕ KPI_СтруктураКомпанииПринятые.Сотрудник = ЗНАЧЕНИЕ(Справочник.KPI_Сотрудники.ПустаяСсылка)
+
+ИНДЕКСИРОВАТЬ ПО
+	СтруктураКомпании,
+	Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	KPI_СтруктураКомпанииУволеные.СтруктураКомпании КАК СтруктураКомпании,
+	KPI_СтруктураКомпанииУволеные.Сотрудник КАК Сотрудник,
+	KPI_СтруктураКомпанииУволеные.Период КАК Уволен
+ПОМЕСТИТЬ Уволеные
+ИЗ
+	РегистрСведений.KPI_СтруктураКомпании КАК KPI_СтруктураКомпанииУволеные
+ГДЕ
+	KPI_СтруктураКомпанииУволеные.Уволен
+	И НЕ KPI_СтруктураКомпанииУволеные.СтруктураУдалена
+
+ИНДЕКСИРОВАТЬ ПО
+	СтруктураКомпании,
+	Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Принятые.Принят,
+	ЕСТЬNULL(Уволеные.Уволен, ДАТАВРЕМЯ(2999, 12, 31)) КАК Уволен,
+	Принятые.СтруктураКомпании,
+	Принятые.Сотрудник
+ПОМЕСТИТЬ ПериодыРаботыСотрудников
+ИЗ
+	Принятые КАК Принятые
+		ЛЕВОЕ СОЕДИНЕНИЕ Уволеные КАК Уволеные
+		ПО Принятые.СтруктураКомпании = Уволеные.СтруктураКомпании
+			И Принятые.Сотрудник = Уволеные.Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ Принятые
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ Уволеные
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача КАК СмартЗадача,
+	KPI_ИсторияСмартЗадачСрезВперед.Ответственный,
+	KPI_ИсторияСмартЗадачСрезВперед.Этап,
+	KPI_ИсторияСмартЗадачСрезВперед.Период
+ПОМЕСТИТЬ ИсторияСмартЗадач
+ИЗ
+	РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+			,
+			Активность
+				И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Создание)
+				И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+				И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+				И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезВперед
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача,
+	KPI_ИсторияСмартЗадачСрезВперед.Ответственный,
+	KPI_ИсторияСмартЗадачСрезВперед.Этап,
+	KPI_ИсторияСмартЗадачСрезВперед.Период
+ИЗ
+	РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+			,
+			Активность
+				И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Выполнение)
+				И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+				И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+				И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезВперед
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+				,
+				Активность
+					И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.ОтменаВыполнения)
+					И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+					И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+					И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезНазад
+		ПО KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача = KPI_ИсторияСмартЗадачСрезНазад.СмартЗадача
+ГДЕ
+	KPI_ИсторияСмартЗадачСрезВперед.Период &gt; ЕСТЬNULL(KPI_ИсторияСмартЗадачСрезНазад.Период, ДАТАВРЕМЯ(1, 1, 1))
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача,
+	KPI_ИсторияСмартЗадачСрезВперед.Ответственный,
+	KPI_ИсторияСмартЗадачСрезВперед.Этап,
+	KPI_ИсторияСмартЗадачСрезВперед.Период
+ИЗ
+	РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+			,
+			Активность
+				И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Утверждение)
+				И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+				И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+				И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезВперед
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+				,
+				Активность
+					И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.ОтменаУтверждения)
+					И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+					И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+					И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезНазад
+		ПО KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача = KPI_ИсторияСмартЗадачСрезНазад.СмартЗадача
+ГДЕ
+	KPI_ИсторияСмартЗадачСрезВперед.Период &gt; ЕСТЬNULL(KPI_ИсторияСмартЗадачСрезНазад.Период, ДАТАВРЕМЯ(1, 1, 1))
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача,
+	KPI_ИсторияСмартЗадачСрезВперед.Ответственный,
+	KPI_ИсторияСмартЗадачСрезВперед.Этап,
+	KPI_ИсторияСмартЗадачСрезВперед.Период
+ИЗ
+	РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+			,
+			Активность
+				И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Проверка)
+				И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+				И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+				И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезВперед
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.KPI_ИсторияСмартЗадач.СрезПоследних(
+				,
+				Активность
+					И Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.ОтменаПроверки)
+					И (СмартЗадача.ВыполнитьДо МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
+					И СмартЗадача.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+					И СмартЗадача.СтруктураКомпании = &amp;ОбъектУправления) КАК KPI_ИсторияСмартЗадачСрезНазад
+		ПО KPI_ИсторияСмартЗадачСрезВперед.СмартЗадача = KPI_ИсторияСмартЗадачСрезНазад.СмартЗадача
+ГДЕ
+	KPI_ИсторияСмартЗадачСрезВперед.Период &gt; ЕСТЬNULL(KPI_ИсторияСмартЗадачСрезНазад.Период, ДАТАВРЕМЯ(1, 1, 1))
+
+ИНДЕКСИРОВАТЬ ПО
+	СмартЗадача
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	KPI_Планы.План,
+	KPI_Планы.Регистратор КАК СмартЗадача
+ПОМЕСТИТЬ СмартЗадачиПланы
+ИЗ
+	РегистрНакопления.KPI_Планы КАК KPI_Планы
+ГДЕ
+	KPI_Планы.Регистратор ССЫЛКА Документ.KPI_СмартЗадача
+	И KPI_Планы.СтруктураКомпании = &amp;ОбъектУправления
+	И KPI_Планы.ПериодичностьПланирования = &amp;ПериодичностьПланирования
+
+ИНДЕКСИРОВАТЬ ПО
+	СмартЗадача
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	KPI_Факты.Регистратор КАК СмартЗадача,
+	KPI_Факты.Факт,
+	KPI_Факты.СтруктураКомпании
+ПОМЕСТИТЬ ФактыСмартЗадач
+ИЗ
+	РегистрНакопления.KPI_Факты КАК KPI_Факты
+ГДЕ
+	KPI_Факты.Регистратор ССЫЛКА Документ.KPI_СмартЗадача
+	И KPI_Факты.СтруктураКомпании = &amp;ОбъектУправления
+
+ИНДЕКСИРОВАТЬ ПО
+	СмартЗадача
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СозданиеЗадач.Период КАК ДатаПостановки,
+	ВЫБОР
+		КОГДА ВыполнениеЗадач.СмартЗадача ЕСТЬ NULL 
+			ТОГДА ""
+		ИНАЧЕ "%Выполнена%"
+	КОНЕЦ КАК Выполнена,
+	ВЫБОР
+		КОГДА УтверждениеЗадач.СмартЗадача ЕСТЬ NULL 
+			ТОГДА ""
+		ИНАЧЕ "%Утверждена%"
+	КОНЕЦ КАК Утверждена,
+	ВЫБОР
+		КОГДА ПроверкаЗадач.СмартЗадача ЕСТЬ NULL 
+			ТОГДА ""
+		ИНАЧЕ "%Проверена%"
+	КОНЕЦ КАК Проверена,
+	СмартЗадачиПланы.План КАК Вес,
+	ЕСТЬNULL(ФактыСмартЗадач.Факт, 0) КАК Факт,
+	ЕСТЬNULL(ФактыСмартЗадач.Факт, 0) / СмартЗадачиПланы.План * 100 КАК ПроцентВыполнения,
+	ЕСТЬNULL(ПериодыРаботыСотрудников.СтруктураКомпании.Должность.Наименование, "") + " (" + ЕСТЬNULL(ПериодыРаботыСотрудников.Сотрудник.ФизическоеЛицо.Наименование, "") + ")" + ЕСТЬNULL(" (" + ПериодыРаботыСотрудников.Сотрудник.Квалификация.Наименование + ")", "") КАК АвторПредставление,
+	СозданиеЗадач.СмартЗадача.ВыполнитьДо КАК СрокИсполнения,
+	ВЫБОР
+		КОГДА &amp;Период &gt; СозданиеЗадач.СмартЗадача.ВыполнитьДо
+			ТОГДА РАЗНОСТЬДАТ(СозданиеЗадач.СмартЗадача.ВыполнитьДо, &amp;Период, ДЕНЬ)
+		ИНАЧЕ 0
+	КОНЕЦ КАК ДнейПросрочено,
+	СозданиеЗадач.СмартЗадача.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	СозданиеЗадач.СмартЗадача.НаименованиеЗадачи КАК Задача,
+	СозданиеЗадач.СмартЗадача
+ИЗ
+	ИсторияСмартЗадач КАК СозданиеЗадач
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ИсторияСмартЗадач.СмартЗадача КАК СмартЗадача
+		ИЗ
+			ИсторияСмартЗадач КАК ИсторияСмартЗадач
+		ГДЕ
+			ИсторияСмартЗадач.Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Утверждение)) КАК УтверждениеЗадач
+		ПО СозданиеЗадач.СмартЗадача = УтверждениеЗадач.СмартЗадача
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ИсторияСмартЗадач.СмартЗадача КАК СмартЗадача
+		ИЗ
+			ИсторияСмартЗадач КАК ИсторияСмартЗадач
+		ГДЕ
+			ИсторияСмартЗадач.Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Выполнение)) КАК ВыполнениеЗадач
+		ПО СозданиеЗадач.СмартЗадача = ВыполнениеЗадач.СмартЗадача
+		ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ИсторияСмартЗадач.СмартЗадача КАК СмартЗадача
+		ИЗ
+			ИсторияСмартЗадач КАК ИсторияСмартЗадач
+		ГДЕ
+			ИсторияСмартЗадач.Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Проверка)) КАК ПроверкаЗадач
+		ПО СозданиеЗадач.СмартЗадача = ПроверкаЗадач.СмартЗадача
+		ЛЕВОЕ СОЕДИНЕНИЕ СмартЗадачиПланы КАК СмартЗадачиПланы
+		ПО СозданиеЗадач.СмартЗадача = СмартЗадачиПланы.СмартЗадача
+		ЛЕВОЕ СОЕДИНЕНИЕ ФактыСмартЗадач КАК ФактыСмартЗадач
+		ПО СозданиеЗадач.СмартЗадача = ФактыСмартЗадач.СмартЗадача
+		ЛЕВОЕ СОЕДИНЕНИЕ ПериодыРаботыСотрудников КАК ПериодыРаботыСотрудников
+		ПО СозданиеЗадач.Ответственный = ПериодыРаботыСотрудников.СтруктураКомпании
+			И СозданиеЗадач.Период &gt;= ПериодыРаботыСотрудников.Принят
+			И СозданиеЗадач.Период &lt;= ПериодыРаботыСотрудников.Уволен
+ГДЕ
+	СозданиеЗадач.Этап = ЗНАЧЕНИЕ(Перечисление.KPI_ЭтапыВыполненияСмартЗадач.Создание)</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОбъектУправления</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Объект управления</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.KPI_СтруктураКомпании</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодичностьПланирования</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Периодичность планирования</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.KPI_ПериодичностьПланирования</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Задача</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДатаПостановки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>СрокИсполнения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДнейПросрочено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>АвторПредставление</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ПроцентВыполнения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Утверждена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Проверена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Выполнена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Вес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Факт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>СмартЗадача</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ОбъектУправления</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>7308b409-2c24-4df2-a69d-8bf24c60e73d</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодичностьПланирования</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>352ba43d-ae4d-4c7c-9aa1-166e4827ddfe</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>73e06ff7-87ce-4f41-ba29-0046fbb518ca</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>c09ff044-2ce7-4fe9-b3d1-f97c7bbbe2cc</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаПостановки</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Очет по смарт-задачам сотрудника</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Утверждена</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Выполнена</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Проверена</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Задача</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДатаПостановки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СрокИсполнения</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДнейПросрочено</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>АвторПредставление</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Факт</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Вес</dcsset:field>
+						</dcsset:item>
+						<dcsset:placement>Vertically</dcsset:placement>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПроцентВыполнения</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

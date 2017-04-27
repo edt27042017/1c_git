@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24596a03-1c5d-40f9-86f1-213032e65f8a">
+  <name>KPI_УправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>KPI управление персоналом</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

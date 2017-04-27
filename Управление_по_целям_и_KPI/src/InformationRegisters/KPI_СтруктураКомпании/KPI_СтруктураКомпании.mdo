@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="319831ea-1def-41e3-be5c-540e10ed984d">
+  <producedTypes>
+    <selectionType typeId="368ec9f6-d8f6-4611-9560-17079240936a" valueTypeId="7a91b831-b43a-4f35-82a8-6883e82e22b5"/>
+    <listType typeId="d178d065-f338-4a97-99b3-0cf29e474ff4" valueTypeId="4496708f-6d6a-452f-a501-c350235f6e48"/>
+    <managerType typeId="c96d1ade-2dfb-440e-af6d-adc4876b2e3b" valueTypeId="7daaea67-d9b1-4149-9bfb-f0447f239691"/>
+    <recordSetType typeId="fd426382-80b4-492f-a9e1-cb11541815bf" valueTypeId="b9eb2972-a219-4c97-b44b-26aac6fddeda"/>
+    <recordKeyType typeId="3df3c77d-11a1-41b0-8503-0cc86c66221d" valueTypeId="32bf068b-16a5-41a6-91f9-c6be9bbb8cee"/>
+    <recordType typeId="644a6ace-bbb6-4cbf-aa19-46072d903728" valueTypeId="aef68e4b-84c1-4c64-b51a-5f50fd92d98d"/>
+    <recordManagerType typeId="a7459309-4762-4d11-8f93-c554159b7ce2" valueTypeId="da662fc5-143e-4b1f-a680-2b2bb20b7981"/>
+  </producedTypes>
+  <name>KPI_СтруктураКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура компании</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.KPI_СтруктураКомпании.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="4aa7594a-e13f-4cf0-b8ff-49c9c3199362">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <resources uuid="3e6cf7d2-b8cd-44e7-99ef-fc2217a7887b">
+    <name>Уволен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уволен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уволен</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="ce720e62-5d24-4075-993e-3a4ace2a8167">
+    <name>СкрытьВСтруктуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрыть в структуре</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Скрыть в структуре</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="3587d305-5fec-4537-8ca3-70ba9af35944">
+    <name>СтруктураУдалена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура удалена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура удалена</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="4f3715e0-ea9f-4f9f-bbd2-69edd6395c46">
+    <name>СтруктураКомпании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура компании</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Структура компании</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a546bf67-c22b-4cbc-a849-824a1ede1905">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e94cd6f-9f3a-490f-aaa0-b10f8ea9215d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a0d893a-e3a2-47cd-a72f-f9141ab9d76e">
+    <name>ФормаВостановленияСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма востановления структуры</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

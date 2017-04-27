@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f86c661f-4d3c-469e-8f48-ffd12a114c03">
+  <name>KPI_УПЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>УПЦ</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

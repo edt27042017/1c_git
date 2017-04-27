@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f164c28b-3cb8-4ed5-90f0-f5e9d0a3e1d4">
+  <name>KPI_ДанныеСЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные СЛК</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

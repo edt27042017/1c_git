@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="feb3f6ff-7296-4169-97cd-a808949b962a">
+  <name>KPI_УправлениеПоЦелям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление по целям</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Управление по целям</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.KPI_УправлениеПоЦелям</picture>
+  </picture>
+  <content>CommonCommand.KPI_ТактическаяПанель</content>
+  <content>Catalog.KPI_МоделиПланирования</content>
+  <content>Catalog.KPI_СценарииПланирования</content>
+  <content>Catalog.KPI_МатрицыРаспределения</content>
+  <content>Document.KPI_ВводФактовВыполнения</content>
+  <content>Document.KPI_Планирование</content>
+  <content>Document.KPI_СмартЗадача</content>
+  <content>CommonPicture.KPI_УправлениеПоЦелям</content>
+  <content>CommonCommand.KPI_ПроформаПланФактов</content>
+  <content>CommonCommand.KPI_ПорталСотрудника</content>
+  <content>CommonPicture.KPI_ПустоеФото</content>
+</mdclass:Subsystem>

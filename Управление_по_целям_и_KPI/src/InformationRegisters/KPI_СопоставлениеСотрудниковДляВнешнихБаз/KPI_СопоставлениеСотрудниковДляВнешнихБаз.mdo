@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5968acb0-53e6-4423-9483-e725b56ba065">
+  <producedTypes>
+    <selectionType typeId="e56c6a6e-ef6a-409d-a85b-76201e1720a6" valueTypeId="e3e71ab0-af9c-4bb4-b5b9-545f80af1d12"/>
+    <listType typeId="34561a29-3ef6-4eec-b0f8-597e2b050789" valueTypeId="c70255f9-fbe7-4b84-992a-17f02cad62e7"/>
+    <managerType typeId="f4554a97-d720-4c9d-baf2-4d58a0371b01" valueTypeId="2c74596a-1e2f-4f90-9c6e-ab25ddd69cb4"/>
+    <recordSetType typeId="5bd995b2-c4c0-4ec6-af6b-3a2251e02841" valueTypeId="d4896ae3-ccb9-4f9a-923f-0565377839f8"/>
+    <recordKeyType typeId="48ab8b8a-be79-4f26-94ac-4ab29a1c1b6f" valueTypeId="69031b0e-8ea0-4bb2-907e-ab2f70cd664d"/>
+    <recordType typeId="f6cdacdf-af7a-42f8-8139-b4ece3dd252f" valueTypeId="3af6baf6-807c-41d4-aed9-f770f68322b5"/>
+    <recordManagerType typeId="9eb20276-3147-4521-80eb-f5f4bd74fc58" valueTypeId="9ceab5d9-71e8-4e76-8207-7759f2df2217"/>
+  </producedTypes>
+  <name>KPI_СопоставлениеСотрудниковДляВнешнихБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление сотрудников для внешних баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.KPI_СопоставлениеСотрудниковДляВнешнихБаз.Form.ФормаЗаписи</defaultRecordForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="25814289-377f-4f45-ac3f-3bb3647fa543">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b750594e-ee9d-420b-a943-b085a9625250">
+    <name>КодФизЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код физ лица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код физ лица</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="362e3029-32e8-41fe-b557-76be7dd49f86">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="639ebd79-b5a6-48f6-97a8-b31bd3d3627b">
+    <name>ИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИБ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ИнформационныеБазы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>ИБ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="869cd44a-c98f-49ca-9fdb-ae2141ee2f14">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

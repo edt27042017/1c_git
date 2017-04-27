@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="637f87ba-8fb3-42a0-ad7e-94f053ac636c">
+  <producedTypes>
+    <objectType typeId="3102d75f-29da-445b-b84c-127e94069edf" valueTypeId="cfb6f57c-71a7-48c7-857d-6e7b0d0fb471"/>
+    <refType typeId="01923831-ffc0-4a85-9cb4-1a7875f304ec" valueTypeId="feeb45c0-4d62-49aa-96b8-969f8a247849"/>
+    <selectionType typeId="b3aeb2fb-0710-4b68-a045-297101f3ec66" valueTypeId="66771bd9-041b-48f3-9c7d-7cb67300ee4f"/>
+    <listType typeId="48a788e6-3d48-4bc1-aef9-f340c8858c2a" valueTypeId="1a5995eb-031c-47c0-b455-143b5857cc1a"/>
+    <managerType typeId="ba0b0c9c-e7db-4286-89b8-5b6f7856efbf" valueTypeId="858683b9-3c47-4fc1-b51b-9d6d3e6e6978"/>
+  </producedTypes>
+  <name>KPI_ВводФактовВыполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод фактов выполнения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.KPI_ВводФактовВыполнения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.KPI_ВводФактовВыполнения.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.KPI_Факты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="f0d69372-e4e3-41e6-8145-4e8124074a90">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e7e66b5e-1da5-4edc-b776-83866d1362f9">
+    <producedTypes>
+      <objectType typeId="9bf741b5-6c27-4eb2-8c29-e1f000b22072" valueTypeId="854f4246-425c-4f39-859a-41e433dddc35"/>
+      <rowType typeId="8bcfc79e-5f5e-4a96-bf12-b7a94d5c14ee" valueTypeId="887930db-6587-413a-bc4f-d730d92ce437"/>
+    </producedTypes>
+    <name>ПараметрыЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </standardAttributes>
+    <attributes uuid="81275281-a209-4644-83db-c2f22725690b">
+      <name>ЦелевойПоказатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bc3f8197-d7e4-48bf-ad7a-3fedbf216991">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметр</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="adf4cd0b-9ccf-4200-8726-c0a11d4d2630">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

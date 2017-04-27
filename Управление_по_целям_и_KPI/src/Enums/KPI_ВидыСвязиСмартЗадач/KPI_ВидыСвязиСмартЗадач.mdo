@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="485ac961-a70d-4a7f-bb73-f66263fc235e">
+  <producedTypes>
+    <refType typeId="226cc204-9061-42b0-b770-8e21346c5073" valueTypeId="c4c262fd-4fa5-4b77-b576-aa73b5580590"/>
+    <listType typeId="20391507-7154-41ca-9eda-0b76d5042582" valueTypeId="8a4aaa6f-432d-4629-8db0-2076bfa76f54"/>
+    <managerType typeId="d9d0d714-901f-4498-9ff1-930111f3266c" valueTypeId="9c980afa-b2d0-4817-9601-61c3dc135ba2"/>
+  </producedTypes>
+  <name>KPI_ВидыСвязиСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды связи смарт задач</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb521e79-0fe8-49b0-8996-87e10c3326b4">
+    <name>Делегирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делегирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

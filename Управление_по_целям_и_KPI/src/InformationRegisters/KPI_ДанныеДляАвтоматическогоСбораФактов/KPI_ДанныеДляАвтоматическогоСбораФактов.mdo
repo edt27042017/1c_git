@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f95469e3-e88b-4caf-b153-53acf0207737">
+  <producedTypes>
+    <selectionType typeId="381046aa-70d0-49aa-a405-2831aa8635db" valueTypeId="cdc27e78-6c99-4038-b63e-2ac31bd54e34"/>
+    <listType typeId="b1406207-f793-4132-b786-fa9b84d8c75b" valueTypeId="f7bb90ce-ce33-4daf-b592-8d1d1c3df921"/>
+    <managerType typeId="50363eba-cd96-4764-9daf-5815d539a2ca" valueTypeId="965cf34c-49fc-453a-9b07-fb4dde4f8cf8"/>
+    <recordSetType typeId="f4cf4c02-04b4-44c5-87f9-e8ff5c029402" valueTypeId="53c4f63d-eb7f-4e7b-ae55-2e28a366406e"/>
+    <recordKeyType typeId="70da3fd4-4dd0-4a7c-9a2f-26e5fe73f0a2" valueTypeId="55b60f62-efa2-4b42-9a13-a276e0bb58c0"/>
+    <recordType typeId="16a0d410-5209-44e8-871a-fcf968f51db2" valueTypeId="40c437aa-832a-4625-9124-984701444d03"/>
+    <recordManagerType typeId="7901cc9c-64e1-4dda-bc38-d1cd9b75c7a8" valueTypeId="4c8295e8-84ff-41fb-b942-d0a4618a6210"/>
+  </producedTypes>
+  <name>KPI_ДанныеДляАвтоматическогоСбораФактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для автоматического сбора фактов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="8b1eb22d-82ca-4484-be60-5d118e8fa445">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="fe2498c4-6c37-410c-9350-1f07c49a0806">
+    <name>ЦелевойПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f2853864-7a37-4640-8af1-3f7705646145">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Параметр</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

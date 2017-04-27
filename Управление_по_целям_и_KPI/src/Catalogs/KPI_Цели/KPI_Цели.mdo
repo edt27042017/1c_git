@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b8dd0a-99b2-49b1-bae5-556ca860b91e">
+  <producedTypes>
+    <objectType typeId="10ae8ba2-7766-44cf-8684-a641bd895b8d" valueTypeId="a6335228-0caa-4bd7-a2f2-f786e05e9264"/>
+    <refType typeId="b4041314-91f9-442e-8532-b687bf9b5f53" valueTypeId="eb4dca6a-ff79-484a-80e4-2087fd33801a"/>
+    <selectionType typeId="828058a2-aef9-4cb1-b7bc-bf61c7e2196c" valueTypeId="e23af506-b0cf-4cf5-a9f7-e8c775db6c87"/>
+    <listType typeId="87c03d40-3644-49e9-a3bc-6bbbf175cdcf" valueTypeId="651c8480-ba65-4e72-abb6-52a6c6f789fa"/>
+    <managerType typeId="e739b7fd-fa84-4416-b8cc-7a992efb3797" valueTypeId="54cd1d6e-790d-4a7a-8e0a-50cba208a254"/>
+  </producedTypes>
+  <name>KPI_Цели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цели</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Цели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Цели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_Цели.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="21d6c952-e232-4ddb-ba4c-ae2db67e6893">
+    <name>Перспектива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перспектива</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Перспективы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Перспектива</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fca3b98c-7e07-4268-a7ff-348117d42f6d">
+    <name>ОтклонениеВверх</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение вверх</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отклонение вверх</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="de3f9bd0-71ac-4ce7-8f5e-22ec55e66284">
+    <name>ОтклонениеВниз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение вниз</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отклонение вниз</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="80137aa2-d3a2-44ac-b62b-7bc6deecf3ac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

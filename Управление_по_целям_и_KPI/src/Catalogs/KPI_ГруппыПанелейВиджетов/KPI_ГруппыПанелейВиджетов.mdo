@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f1882f-9de8-4b93-aed9-796eeb931850">
+  <producedTypes>
+    <objectType typeId="dfbcc224-7841-4518-87dc-3699f5658488" valueTypeId="34e89a71-f6d2-4624-a185-ad5e822f830b"/>
+    <refType typeId="4d42e50b-a2b6-4951-8b6c-795ff7e305e5" valueTypeId="7067e4d0-15e8-45bd-9810-5a7935e74b6f"/>
+    <selectionType typeId="a501147b-801b-41b4-b149-5f92a019f147" valueTypeId="c9fe9db5-4384-41d6-9132-c61b5220d548"/>
+    <listType typeId="cdad87bb-4f3c-4fa6-b7e8-644003a30a62" valueTypeId="95f8b186-e081-4e89-9958-df28bf643121"/>
+    <managerType typeId="9ff3ec34-34eb-40b2-b796-de5f0c05d8c7" valueTypeId="deeb4c2f-435c-4dc4-bd2e-d13057b11a60"/>
+  </producedTypes>
+  <name>KPI_ГруппыПанелейВиджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы панелей виджетов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ГруппыПанелейВиджетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ГруппыПанелейВиджетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c25e1c7a-3ed1-42a1-8f9f-48476025e99b">
+      <name>ПорталСотрудника</name>
+      <description>Портал сотрудника</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="75b30f9a-c08d-4aad-8f3f-887affe59112">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

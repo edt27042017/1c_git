@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a6e1c9b-7a09-4200-a8f6-251ea81dd3f1">
+  <producedTypes>
+    <objectType typeId="30b55340-51f8-4fde-b9fa-b5c90ed104e1" valueTypeId="18d70acf-8594-44f9-bf95-48f661a2605c"/>
+    <refType typeId="4f48da8f-6aa8-40cf-9cd4-84c710a99277" valueTypeId="fe0b7af2-6db1-4109-a438-bffe16403cff"/>
+    <selectionType typeId="0be88e82-045e-4514-8312-0ceeeaa241b5" valueTypeId="2673dabc-96b4-4ea3-b14e-8237d43faf88"/>
+    <listType typeId="2b42ac2c-4f7c-4aba-b5a1-b7d41fe60a47" valueTypeId="2efd196a-be5b-4c56-9e21-dd6b9036d568"/>
+    <managerType typeId="7aebd74f-b2b8-4936-a0e3-01c12368a9f2" valueTypeId="a506773b-ab44-4cac-b44c-284bd4d3503d"/>
+  </producedTypes>
+  <name>KPI_ШкалыОценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкалы оценок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ШкалыОценок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ШкалыОценок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_ШкалыОценок.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="64ff65ac-a74f-4267-96c9-1f6d6c0fc3b6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

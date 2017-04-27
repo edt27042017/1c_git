@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82352850-f497-4378-b534-ffa8be44bfb2">
+  <producedTypes>
+    <selectionType typeId="10a157e2-1830-411f-afc0-914ad65a3788" valueTypeId="c43d1f79-81ae-4d89-9597-d90578e21d4b"/>
+    <listType typeId="922b5fd2-2c8b-4a3f-b36a-1635133e7839" valueTypeId="a915481e-69b1-4e7b-94ac-bbe2be88e728"/>
+    <managerType typeId="5dce6ae3-9371-4833-a292-895b758f3834" valueTypeId="53c3f620-acca-4a72-83de-90433c8287fa"/>
+    <recordSetType typeId="c9cd368e-3650-4147-8d21-d8df2d46ef01" valueTypeId="fc674b9e-805a-475d-90c9-e20012d640ab"/>
+    <recordKeyType typeId="5dfebc02-f686-4b13-ac37-a4490cdcd9e6" valueTypeId="e2e81d0b-9c72-490a-82bc-0bf1511e5fc8"/>
+    <recordType typeId="c109f0dd-3356-475c-ae33-f17cf1ab0443" valueTypeId="69cbd5e9-b5e9-433b-9080-c71f7ec151c1"/>
+  </producedTypes>
+  <name>KPI_РабочееВремяСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее время сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a5351744-91c2-4707-a54c-8f3beb7720e6">
+    <name>Часов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Часов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="52ff8414-055d-497f-8481-26a92bd35176">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="105ed15c-946f-492a-a711-a488566596fa">
+    <name>Явка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Явка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Явка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

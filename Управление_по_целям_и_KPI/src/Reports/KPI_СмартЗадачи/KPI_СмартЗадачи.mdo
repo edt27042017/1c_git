@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d7246b-f53a-4912-9929-869fff3c9b2b">
+  <producedTypes>
+    <objectType typeId="6430819d-c855-41bf-adb2-c739a510156e" valueTypeId="b332809d-7539-4cce-af7e-46b9d29d0d28"/>
+    <managerType typeId="7f86098e-bc18-45cf-8ad3-e3e10cbe31f6" valueTypeId="a7ff0fe9-5a24-46e6-b55a-1711748be98f"/>
+  </producedTypes>
+  <name>KPI_СмартЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cмарт-задачи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.KPI_СмартЗадачи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="02397c7e-c92b-41bb-a5bc-922e921a4c0c">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </attributes>
+  <attributes uuid="f06381f8-f0a1-44e2-ab49-c35b605aee48">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </attributes>
+  <attributes uuid="0acf69db-5088-4c2a-b9fc-792368431b2b">
+    <name>ОбъектУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект управления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект управления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </attributes>
+  <attributes uuid="3d63bc41-1ea5-4038-9093-96a06616ddab">
+    <name>ПериодичностьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность планирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ПериодичностьПланирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность планирования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </attributes>
+  <forms uuid="cdf79483-d6f2-4cdf-a989-c795727440c7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ab0f6700-4c23-449b-9079-dae24e63b216">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

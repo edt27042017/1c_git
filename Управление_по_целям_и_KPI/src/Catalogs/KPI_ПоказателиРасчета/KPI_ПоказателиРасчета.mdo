@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="698392b1-fce3-42e8-91fa-96f384f7f03e">
+  <producedTypes>
+    <objectType typeId="3cdee680-7cd5-431a-98ca-02b4f856d8da" valueTypeId="ee8d2a64-54f9-482b-b612-6fe6f4775108"/>
+    <refType typeId="0324beef-7b86-4fcb-9658-71405abdc41c" valueTypeId="9129426a-1b12-408d-ae1c-3facab41a928"/>
+    <selectionType typeId="e2f6ebfd-0f59-4674-80d8-8814574456dd" valueTypeId="46c85902-72cb-43cf-9184-331def0b7e66"/>
+    <listType typeId="0f441df0-6d98-4db7-a1c4-fab7c6180b6f" valueTypeId="c8816dcf-9417-44be-9447-75e2167f6396"/>
+    <managerType typeId="2af135f5-51ab-40cd-ad61-33e236472d54" valueTypeId="e154b648-4191-4332-8250-0369e73a848c"/>
+  </producedTypes>
+  <name>KPI_ПоказателиРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели расчета</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ПоказателиРасчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ПоказателиРасчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1b356822-fba1-40ab-8750-b2470edfa969">
+      <name>БазовыеНачисления</name>
+      <description>Базовые начисления</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e343a74a-5b67-4fbf-9718-9f0ac27e5380">
+      <name>ИтоговыйКПР</name>
+      <description>Итоговый КПР</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_ПоказателиРасчета.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="0b479689-8ec0-4aac-a677-6c1d41014cc1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

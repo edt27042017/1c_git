@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dfd6330-b3ba-453f-92e4-ac4ee2b68bb0">
+  <name>KPI_ПроверенныеСмартЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверенные смарт-задачи</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

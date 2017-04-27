@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b1482c3-b152-487e-a9ab-2ad357d83a51">
+  <producedTypes>
+    <refType typeId="91cc42eb-e42a-444b-a840-211f7ba487ce" valueTypeId="ab93bca8-6059-411e-a6a6-0e999630cf92"/>
+    <listType typeId="90471907-52fe-4b10-b1b6-06f479bcc8e9" valueTypeId="3a22fe74-57d1-49e8-9ea9-1796ed1cae62"/>
+    <managerType typeId="57277c06-ac83-43e7-9a19-dad1bbe5a2c7" valueTypeId="cc1c3e91-ddfe-4939-b2ed-58fe572b5b61"/>
+  </producedTypes>
+  <name>KPI_ТипыРасчетаНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы расчета начислений</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c19d30fa-04f7-4591-a369-fd8b847a0e1a">
+    <name>ФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированной суммой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d0c49978-d3b6-44fe-aa0e-fd0e17124b2e">
+    <name>Формула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

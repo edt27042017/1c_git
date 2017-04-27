@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc6e592-d329-4915-a942-805ca2a7d961">
+  <producedTypes>
+    <selectionType typeId="3e5232ea-be2c-4a33-b6c3-4577f437b6ff" valueTypeId="a431c07f-03be-46dc-a633-c577e8a96fe9"/>
+    <listType typeId="1a0af9eb-25c5-42a9-aac2-60c5b2766d93" valueTypeId="cbb3d1ec-43fa-485e-953a-917318ea3761"/>
+    <managerType typeId="2de8656f-8c9f-4ed8-92b4-085330080382" valueTypeId="989273a3-5bbc-44ad-a9b2-813faea225a9"/>
+  </producedTypes>
+  <name>KPI_КадровыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые документы</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.KPI_КадровыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.KPI_ПриказОНазначенииНаДолжность</registeredDocuments>
+  <registeredDocuments>Document.KPI_ПриказОСнятииСДолжности</registeredDocuments>
+  <registeredDocuments>Document.KPI_ПриказОПереводе</registeredDocuments>
+  <registeredDocuments>Document.KPI_Табель</registeredDocuments>
+  <registeredDocuments>Document.KPI_Невыходы</registeredDocuments>
+  <registeredDocuments>Document.KPI_ВводПрекращениеНачислений</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ea920034-309c-4639-8047-ae7e03ca04c8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

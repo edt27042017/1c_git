@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b51038a-267f-4c9e-9c29-b8d1b40a26bd">
+  <name>Часы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часы</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

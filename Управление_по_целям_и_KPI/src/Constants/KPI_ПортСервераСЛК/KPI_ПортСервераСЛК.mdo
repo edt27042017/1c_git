@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f25c7c6-2a7c-4ad1-bef0-99b0c716ae69">
+  <producedTypes>
+    <managerType typeId="1f2e64e1-b606-4dc3-9510-4ca485ed1976" valueTypeId="e2eb1d15-8daf-4896-994b-91b8d588f562"/>
+    <valueManagerType typeId="aaad6f74-0284-462c-a59b-58ff382b9e69" valueTypeId="ddf1c84b-b9f9-41ba-8fa3-25b7cab2e9e3"/>
+  </producedTypes>
+  <name>KPI_ПортСервераСЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт сервера СЛК</value>
+  </synonym>
+  <comment>Порт сервера СЛК</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Порт сервера СЛК</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+</mdclass:Constant>

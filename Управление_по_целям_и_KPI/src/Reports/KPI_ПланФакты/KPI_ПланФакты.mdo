@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2505e1d1-9c99-4a0a-b75f-115784a60138">
+  <producedTypes>
+    <objectType typeId="b60ed682-ee9c-43e1-8aeb-1ef024783367" valueTypeId="6030228a-604c-44d1-b8f6-0687c9ed0d07"/>
+    <managerType typeId="7ca634e7-d2de-41ba-af4e-1f5650bce8ec" valueTypeId="69fa0b08-d4d4-412e-bff9-d15c48009c69"/>
+  </producedTypes>
+  <name>KPI_ПланФакты</name>
+  <synonym>
+    <key>ru</key>
+    <value>План-факты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.KPI_ПланФакты.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="7353cc82-142a-4808-a651-6a610e710dd8">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5e546832-9165-4077-b01c-b6eca5765d21">
+    <name>ОбъектУправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект управления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект управления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a8ae40e0-9ffd-4c2b-90c0-80d57e7de7e6">
+    <name>ПериодичностьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность планирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ПериодичностьПланирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность планирования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="a350444b-6c14-4d23-acc0-c199b2e45af3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="270074d8-c8ab-4399-95bc-c532124c327f">
+    <name>ПланФакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>План факты</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

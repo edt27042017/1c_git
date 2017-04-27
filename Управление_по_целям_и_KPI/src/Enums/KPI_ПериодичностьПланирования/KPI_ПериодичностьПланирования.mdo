@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b401df53-297e-41d3-9b12-b1812909a4c2">
+  <producedTypes>
+    <refType typeId="dd3a2301-8ac4-4737-8b9f-0ab43f2f1805" valueTypeId="3a874aff-c1ae-4745-b23e-6f7ddadab7d5"/>
+    <listType typeId="59a111ee-7384-465d-89a9-4952872e4e87" valueTypeId="989fe056-c8c6-4294-863d-c525e7cf8a8f"/>
+    <managerType typeId="5fac05e3-6034-4f9c-8f1e-94edc2c75901" valueTypeId="55d7458e-54c6-4f9b-a65e-defc8ef1d763"/>
+  </producedTypes>
+  <name>KPI_ПериодичностьПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность планирования</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3414b23-551a-4b68-9504-e00303c63183">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="932db369-c374-4b18-b9bf-d11650283995">
+    <name>Неделя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неделя</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="713c43cd-fb58-459b-ab72-bd25d6a64381">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="46a48630-70d1-490a-95fb-f627078f1077">
+    <name>Квартал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0a84da2a-f6e8-4143-a001-6abd5d7ce4b2">
+    <name>Полугодие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полугодие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8e5bf551-f003-4340-aa31-1de0b3230724">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

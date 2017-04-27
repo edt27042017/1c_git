@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="024bc888-e6f4-4afb-9daf-7061abd67d79">
+  <name>KPI_Флажок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Флажок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

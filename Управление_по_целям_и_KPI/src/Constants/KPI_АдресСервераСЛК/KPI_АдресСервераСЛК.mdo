@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca0c61b-7dd4-41a2-8210-1789af3811f8">
+  <producedTypes>
+    <managerType typeId="b50eb227-aa60-4099-84dc-95d0795cf391" valueTypeId="f53dfbce-cf42-4b52-bb85-cd51fa5eed9b"/>
+    <valueManagerType typeId="d9b4b647-763c-4c53-8523-bfe0d8dbbbcd" valueTypeId="5027ee56-42d0-424c-a4d9-a3b74118fef8"/>
+  </producedTypes>
+  <name>KPI_АдресСервераСЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервера СЛК</value>
+  </synonym>
+  <comment>Имя или IP-адрес сервера СЛК</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес сервера СЛК</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+</mdclass:Constant>

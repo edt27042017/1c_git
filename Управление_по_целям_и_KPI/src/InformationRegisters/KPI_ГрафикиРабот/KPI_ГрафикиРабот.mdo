@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="994c6e15-e6d2-4150-90be-c19640dd11cb">
+  <producedTypes>
+    <selectionType typeId="e05f663e-b434-4608-a647-698bd12ec3b2" valueTypeId="adc960c0-e2db-4048-bcae-e8216a1b47bb"/>
+    <listType typeId="e06d7995-071b-4b6a-bbc8-efdf418ddcc6" valueTypeId="a42593f3-29f4-4ea0-bb0d-a7d45d7e9a52"/>
+    <managerType typeId="b7c6dcf4-e6f5-4430-b64a-0d81a434984b" valueTypeId="1b1624e7-fe5a-4825-af2c-7c2351d466ec"/>
+    <recordSetType typeId="2088134a-9094-44fd-b8a1-a49c4d90810d" valueTypeId="3c5ffc1d-23da-400e-971e-57c5384f8e38"/>
+    <recordKeyType typeId="9b136217-f51c-41d5-94f9-097c0465b25a" valueTypeId="397e78ea-cb53-4f1a-bff2-e4e3d475c9a7"/>
+    <recordType typeId="14a5c4db-2d0a-401f-93d2-f78d1378721a" valueTypeId="71416710-91a1-475c-ab56-ad6cfd8d1588"/>
+    <recordManagerType typeId="10005324-1503-46c0-b787-0833a2b479d9" valueTypeId="081bac2d-a10a-46a4-a0a3-a1e68a6e51b7"/>
+  </producedTypes>
+  <name>KPI_ГрафикиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="c9d68297-87bd-47de-99e5-53dae19f4d22">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Часы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>24</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <resources uuid="2b2e5394-495c-49cb-80fb-7d237ddf9b04">
+    <name>ВидДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ВидыДнейГрафика</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="7248cbb3-0c5a-45c2-b42f-22d5560d8c65">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ГрафикиРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График работы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8c312c4c-95e6-4108-aa96-69d12712b15e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8e6a8a19-f301-425a-8128-e05d34e0e6a0">
+    <name>ПраздничныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздничные дни</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

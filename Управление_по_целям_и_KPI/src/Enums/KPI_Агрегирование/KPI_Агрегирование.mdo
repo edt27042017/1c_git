@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37ff21ef-6f9c-4cf2-95f6-ecaafb439167">
+  <producedTypes>
+    <refType typeId="cb2ed186-07c2-446d-a34f-4310d39f8efb" valueTypeId="d688c817-2be4-4e01-8eed-7525ccaf7ee4"/>
+    <listType typeId="96c8a7e3-8859-41e9-b4e2-92d058b5088d" valueTypeId="0a3499d9-3ba2-4226-bd6b-dd99a21895e8"/>
+    <managerType typeId="4d0da155-e7b9-45ed-9f7f-fa99edbbd262" valueTypeId="db6e3f8b-8f83-4c40-9c7c-5ce971104d6e"/>
+  </producedTypes>
+  <name>KPI_Агрегирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегирование</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ecd80c3-7f66-4751-9e56-c41941a03931">
+    <name>Максимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимум</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="48606482-0074-4c46-9960-40784c58ff8e">
+    <name>Минимум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимум</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51dd984a-0d37-405f-8d3f-1b6e4f28c916">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4d6d1408-b018-4795-82eb-6fdb82adabb4">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42582e07-8c11-4923-8d51-f0b4bbeafef0">
+  <producedTypes>
+    <objectType typeId="c861ecad-af17-4c9d-b5d9-b033ed0d7fa8" valueTypeId="d7407c29-4c00-49ac-b91d-961324748c6f"/>
+    <refType typeId="ebf38cd9-d591-4d6e-82d3-2511f91bb8dc" valueTypeId="4b1da50b-533d-49fa-a6ef-0f27428eff4d"/>
+    <selectionType typeId="26417973-e13a-4f2b-baef-ff4bf98401da" valueTypeId="ac54d4b0-3b50-43aa-9130-020b71150b12"/>
+    <listType typeId="e04cd77b-0917-4cc2-a2b6-64fce22663f7" valueTypeId="2b459138-04b0-4e74-9e94-3aa2281d80f3"/>
+    <managerType typeId="b908f75a-6617-4a9d-8557-e2461d707376" valueTypeId="5bd08987-22cf-42af-b67a-8b2893282b78"/>
+  </producedTypes>
+  <name>KPI_Аналитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитики</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Аналитики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Аналитики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

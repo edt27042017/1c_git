@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24699e2e-cd89-4cd5-87a9-e3d842b48dfe">
+  <producedTypes>
+    <objectType typeId="03169e50-6299-4644-9ec6-209bb728f52c" valueTypeId="610cb22b-0ef0-4de2-8eda-9c632ad3579b"/>
+    <managerType typeId="c3f5d432-71cc-4074-a553-1174fc58c38d" valueTypeId="5c46cbf7-c3df-4bcc-b9b2-6bc1aa332cad"/>
+  </producedTypes>
+  <name>KPI_СборФактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор фактов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.KPI_СборФактов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a955ac39-fbca-48bf-ba90-a0d2b509870b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f39a4f1d-c06f-450a-a955-4137467d5435">
+    <name>ФормаФакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма факты</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

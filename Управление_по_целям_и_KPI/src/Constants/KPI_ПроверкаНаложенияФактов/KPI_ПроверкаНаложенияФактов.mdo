@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d15dd4d-20eb-40df-9833-9a278413dfc5">
+  <producedTypes>
+    <managerType typeId="9c8e14d9-f918-4580-931e-a67a75a5153a" valueTypeId="b61074b0-9133-4e46-bcb2-902d1ae327fe"/>
+    <valueManagerType typeId="83b49108-8495-447d-a7c9-24f8c7fd2409" valueTypeId="9d6aa3e0-aadb-400a-afa5-db72d4b060a2"/>
+  </producedTypes>
+  <name>KPI_ПроверкаНаложенияФактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка наложения фактов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Проверка наложения фактов</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:NullValue"/>
+  <maxValue xsi:type="core:NullValue"/>
+</mdclass:Constant>

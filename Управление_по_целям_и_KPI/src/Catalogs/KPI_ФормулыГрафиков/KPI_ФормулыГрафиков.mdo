@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f59eabc6-9af1-461c-94c0-1208dd8371a5">
+  <producedTypes>
+    <objectType typeId="d10175d6-f5d2-40cf-815a-911fbcbf8ea0" valueTypeId="8cbadad0-aaf7-48f2-bb0c-a2643b76a13f"/>
+    <refType typeId="0d5f2b6d-94b8-4fea-a528-206044cdad83" valueTypeId="5eeb8165-95f6-40d7-9414-67ca5f523431"/>
+    <selectionType typeId="b66ddf1e-ac88-4d77-b627-c1f0997bd12d" valueTypeId="342074b8-8c6e-4218-90f9-05e58baf2c11"/>
+    <listType typeId="5fc9b254-e901-4667-8cc6-855add97d77c" valueTypeId="e3b577c9-756f-4487-8dd2-afa760ddf297"/>
+    <managerType typeId="bf731475-cc75-4cb5-9ef5-b49758a36f33" valueTypeId="761b5e22-00ef-434e-b20b-dc5f4170eaaf"/>
+  </producedTypes>
+  <name>KPI_ФормулыГрафиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формулы графиков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ФормулыГрафиков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ФормулыГрафиков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_ФормулыГрафиков.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a25cd694-46ac-420a-b018-7f625e6c86b6">
+    <name>ЧислоРабочихДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число рабочих дней</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число рабочих дней</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>7</value>
+    </maxValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="acb8d226-4dc0-4d03-ad0a-1fa7c3a09e6d">
+    <name>ЧислоВыходныхДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число выходных дней</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число выходных дней</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>7</value>
+    </maxValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="096aa574-6511-444f-84fa-ebc8ae266d41">
+    <name>СкользящийГрафик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скользящий график</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Скользящий график</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="db340bd3-e7b6-415d-9354-94a91b179afe">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

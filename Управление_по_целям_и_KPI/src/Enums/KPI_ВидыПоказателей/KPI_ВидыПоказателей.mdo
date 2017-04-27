@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cd367d0-8693-44f4-9bb9-7a706f40762e">
+  <producedTypes>
+    <refType typeId="c15f0e12-7fed-4bb0-bcfe-318244b35b18" valueTypeId="80168efc-0e06-4875-aabf-983d8821a364"/>
+    <listType typeId="14c6615c-469f-4aa6-8c89-c5068d7e6705" valueTypeId="36b394a9-fd04-4959-a508-c19a5e85a697"/>
+    <managerType typeId="62a8ad8e-d929-4767-b650-4cac7c5bb804" valueTypeId="16bf9f03-9097-4afe-a382-48d9f80944ba"/>
+  </producedTypes>
+  <name>KPI_ВидыПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды показателей</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="936247b7-8d08-441f-ab09-f2d4d5d99f4e">
+    <name>Прямой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="58b6b4ea-0ab3-4844-b2f7-ea34f8a8c417">
+    <name>Обратный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обратный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7523cce3-23e5-4ac3-b301-ab846bb5cad5">
+    <name>Предельный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предельный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="53e6f83a-fbdb-4e0f-9339-70155ef1dc80">
+    <name>ПоФормуле</name>
+    <synonym>
+      <key>ru</key>
+      <value>По формуле</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b847fd8d-7293-43e6-9310-36309cda4281">
+  <producedTypes>
+    <refType typeId="d1274e49-3726-4890-a091-91eb61fb901b" valueTypeId="03042a69-52e9-4a8c-8640-f2df1ac9a5c9"/>
+    <listType typeId="6c46c4b0-5110-4645-94e2-9a0721ee6af9" valueTypeId="6b32d874-bee0-44df-bb7f-de7ac1ac4207"/>
+    <managerType typeId="732819e8-a1c8-4e20-81cd-d19d237681a1" valueTypeId="1f955900-7718-42ed-af13-1f520cd215b2"/>
+  </producedTypes>
+  <name>KPI_ВидыПравДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов разграничения доступа</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="14261e72-b8d0-47d6-8138-8b11987563e0">
+    <name>СмартЗадачиПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задачи просмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3aba82e2-c2ca-4bb9-b8c7-e2eb20997e2d">
+    <name>СмартЗадачиРедактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задачи редактирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b6791e09-5d6f-4437-a4fb-f002c7510021">
+    <name>СмартЗадачиВыполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задачи выполнение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63ce6ead-deda-4b0b-9025-ca836c1bbc92">
+    <name>СмартЗадачиУтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задачи утверждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ca3ade29-46ed-4626-9c0a-fdb399f12073">
+    <name>СмартЗадачиПроверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задачи проверка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6eb8f6ee-1c04-496b-b1ee-a71c2cb392f2">
+    <name>ПланыПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы просмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="438ab26f-c941-4cc3-b0ad-94b8e14c31d7">
+    <name>ПланыРедактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы редактирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0c6bc0b7-0856-472b-a548-d12486035952">
+    <name>ПланыУтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы утверждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="804c7155-1cb8-47bc-bc8c-07be91185487">
+    <name>ПланыОтменаУтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы отмена утверждения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aeccd89f-d0e5-499f-93cd-48751e384b5d">
+    <name>СтандартыПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты просмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3886be57-9ae3-47cd-88b5-2059843131d3">
+    <name>СтандартыРедактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты редактирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="66318667-ebba-4dd2-a40d-a98742fa3b5f">
+    <name>СтандартыПроставлениеОценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты проставление оценки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0a46b138-1d88-42a6-ac74-9d66360dd124">
+    <name>ЦелевыеПоказателиИспользование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевые показатели использование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c1e1baf8-e8dd-4fbb-a194-cea80d6985f0">
+    <name>ПремияПросмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия просмотр</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="727478e2-ffc3-45e7-9f6d-85f02ea230b2">
+    <name>ПремияРедактирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия редактирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="000964a5-5f72-4cb5-aec5-36714c6eaa08">
+    <name>ПремияУтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия утверждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

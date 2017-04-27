@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14c0c3ec-ea62-4ddf-a2fd-0a47485ab81f">
+  <producedTypes>
+    <selectionType typeId="1ae15455-9a57-46ec-9fdc-b82cb8ca1f49" valueTypeId="f2fbf1c1-0c0d-43c7-916e-7823c0401eb1"/>
+    <listType typeId="ac1909db-7a99-4375-8326-c4cf8c64e042" valueTypeId="f895a066-0db2-45f7-8fed-cfc56dd27f36"/>
+    <managerType typeId="f85f7617-1de7-45c3-87d8-22dc31f5046e" valueTypeId="5d122c3d-fb63-4edb-831b-0a74a014e6af"/>
+    <recordSetType typeId="fc33ec0d-2551-4553-9752-bafc8e16f886" valueTypeId="e5451d2e-edbd-452e-8b7f-d0f1b8dc07b7"/>
+    <recordKeyType typeId="b589b138-c473-4b38-8da2-51dd074bf29d" valueTypeId="982967b3-0407-4505-a996-6ee9158a3e7a"/>
+    <recordType typeId="68a88d10-f0de-4112-85c7-8a742319c400" valueTypeId="a5d253ff-ca4f-452e-9bf5-5031aa5d9fcd"/>
+    <recordManagerType typeId="24d0ea92-b002-46bb-be20-9c12a100b753" valueTypeId="87da9047-56e0-47e5-8f90-3a3dc85c6a19"/>
+  </producedTypes>
+  <name>KPI_Анализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.KPI_Анализ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.KPI_Анализ.Form.ФормаСписка</defaultListForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="b69945a2-4c5f-474d-ad60-fcf359e313d3">
+    <name>Анализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Анализ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="7cb45c04-3e99-4d1a-8ec0-aea32e6e8a6a">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4b116a12-6356-4926-9c65-6813f4699ece">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.KPI_Планирование</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основание</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06b72dd6-27df-45b4-8334-4b755c3391c5">
+    <name>ЦелевойПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="292c7b04-33f8-49b8-9879-926c8d906493">
+    <name>КлючАналитики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ аналитики</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_КлючиАналитики</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ключ аналитики</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dc9068d8-de93-4790-9623-b6195b88d7eb">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ff8d769-eb60-487f-8256-da7c2c8f111c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

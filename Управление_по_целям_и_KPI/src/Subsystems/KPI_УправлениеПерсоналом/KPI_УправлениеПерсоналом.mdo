@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c628c8f4-d688-4e32-8faa-ae5f8e8b73a0">
+  <name>KPI_УправлениеПерсоналом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление персоналом</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Управление персоналом</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.KPI_УправлениеПерсоналом</picture>
+  </picture>
+  <content>Document.KPI_НачисленияСотрудников</content>
+  <content>ChartOfCalculationTypes.KPI_Начисления</content>
+  <content>Report.KPI_РасчетныйЛисток</content>
+  <content>DocumentJournal.KPI_КадровыеДокументы</content>
+  <content>Catalog.KPI_ГрафикиРабот</content>
+  <content>Catalog.KPI_Шкалы</content>
+  <content>CommonCommand.KPI_Календари</content>
+  <content>Catalog.KPI_ПоказателиРасчета</content>
+  <content>Document.KPI_ВводПрекращениеНачислений</content>
+  <content>InformationRegister.KPI_ГрафикиРаботыСотрудников</content>
+  <content>Catalog.KPI_ФормулыГрафиков</content>
+  <content>CommonPicture.KPI_УправлениеПерсоналом</content>
+</mdclass:Subsystem>

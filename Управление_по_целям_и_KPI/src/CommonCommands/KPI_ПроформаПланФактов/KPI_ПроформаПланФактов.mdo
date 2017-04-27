@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c75222-4d8b-4231-90c7-7e8fd6116aae">
+  <name>KPI_ПроформаПланФактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проформа планов/фактов</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Проформа планов/фактов</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

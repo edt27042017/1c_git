@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a01fb22-b395-4ec7-81fc-1c90ff77d017">
+  <name>KPI_ИнтерфейсВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс вызов сервера</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

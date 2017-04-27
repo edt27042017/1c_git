@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be562ca6-7af2-4a89-b02a-3bd51af1f2c0">
+  <producedTypes>
+    <objectType typeId="84b80625-60ce-48fb-a769-c9f6e2828ea3" valueTypeId="906dfdf1-336d-4b50-bf60-ceb3b38c587e"/>
+    <refType typeId="8f653f54-2449-4aa1-8779-5a3773825e1c" valueTypeId="1f1bb89c-a88a-4b47-9fe4-21bf121d9291"/>
+    <selectionType typeId="c8c109f1-392b-4a57-b302-0ab6aecde007" valueTypeId="aa548ac9-388d-4ca0-b113-573af76cd615"/>
+    <listType typeId="4ccdbe61-42cc-4c5e-8264-2665c72430f6" valueTypeId="ecca2b40-f85c-4db2-b726-ea6b49dbe3a0"/>
+    <managerType typeId="67a5e302-00b6-4811-8af6-da1e0d1e38b5" valueTypeId="23571a08-8379-479c-b462-798015532f86"/>
+  </producedTypes>
+  <name>KPI_Макеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макеты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Макеты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Макеты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="44ae19df-67a7-460b-a965-d4f82eeb174f">
+    <producedTypes>
+      <objectType typeId="405fbb2e-d112-4f78-98d8-82e40df61fa2" valueTypeId="75205ea1-e626-41f8-80fb-4f159fb56333"/>
+      <rowType typeId="d5a4ec74-ee2d-420b-aef8-6736922eeaf8" valueTypeId="49f03311-5673-43f7-8ada-6f94737cb168"/>
+    </producedTypes>
+    <name>ЦелевыеПоказатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевые показатели</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Целевые показатели</value>
+    </toolTip>
+    <attributes uuid="da995b8c-4523-4c0f-bd45-8843df2a1489">
+      <name>ЦелевойПоказатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

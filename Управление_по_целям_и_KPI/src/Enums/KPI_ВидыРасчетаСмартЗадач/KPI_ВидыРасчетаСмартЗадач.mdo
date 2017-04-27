@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2832526a-978d-41b4-9eb5-64806e64f07f">
+  <producedTypes>
+    <refType typeId="9e3cbe75-13f8-425d-9cf7-ca46fe3cb59b" valueTypeId="87946ab4-52e8-4815-a797-b827919207ff"/>
+    <listType typeId="1e3b6fb0-337a-46cb-a6c3-5e458f67e307" valueTypeId="2e6f3ef1-8c18-43db-889c-b3e15b60cdae"/>
+    <managerType typeId="3019e328-619d-43ca-94be-338211f29698" valueTypeId="a027ffd7-45af-473e-955d-3918dcc2d32f"/>
+  </producedTypes>
+  <name>KPI_ВидыРасчетаСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчета смарт задач</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b47f7a8f-9d8c-4bac-910c-baf9a4c1ebe5">
+    <name>Абсолютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абсолютный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="17025f30-16e8-465c-b1ce-dd65c081eeca">
+    <name>Относительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

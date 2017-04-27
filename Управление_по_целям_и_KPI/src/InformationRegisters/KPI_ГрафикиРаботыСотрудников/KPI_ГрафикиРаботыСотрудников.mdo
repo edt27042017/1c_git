@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="036af846-395c-49a7-9a8d-4d328a761bff">
+  <producedTypes>
+    <selectionType typeId="f12cf57a-32e7-4ed7-9ca1-4756572e9c55" valueTypeId="7dcd009b-8a95-4267-908e-a6f3fe3f8081"/>
+    <listType typeId="07de1c20-5d60-47eb-a480-c3808631410f" valueTypeId="bc2bf46d-09b3-4a28-bcd7-02940f1c4c01"/>
+    <managerType typeId="5d3be279-869b-42e8-bc42-14088d9ac516" valueTypeId="53bb7029-01c2-43e9-aaf2-0ec38b2149bd"/>
+    <recordSetType typeId="787aa654-f113-48d9-ac6f-a5731df6557e" valueTypeId="bf690bc8-d161-4dbe-8d6d-2ce9e5a4af32"/>
+    <recordKeyType typeId="83c6f85f-2ccc-4c6a-bab8-e8050d926bb5" valueTypeId="5da6fb14-7b80-4bdf-af5f-7827fa9fa8f0"/>
+    <recordType typeId="2e83910f-8789-4c9e-a82f-95bea6d33e32" valueTypeId="1c6fe3ea-98ee-4cd3-b185-f31c6af9ed67"/>
+    <recordManagerType typeId="e45b6e32-be82-430c-a7a0-97f5d224a79c" valueTypeId="f7a9ddd2-f997-472e-bf6b-740da0d23ee4"/>
+  </producedTypes>
+  <name>KPI_ГрафикиРаботыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="adffd095-2aa3-44c3-9765-0d612adf55a4">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ГрафикиРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График работы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="d44de439-4d9b-492b-b886-c35cbdc41391">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

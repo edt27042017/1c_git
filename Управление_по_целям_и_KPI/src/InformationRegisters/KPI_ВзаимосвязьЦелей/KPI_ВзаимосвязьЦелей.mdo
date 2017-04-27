@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5006e3d-7436-4d81-9219-10655cb34e50">
+  <producedTypes>
+    <selectionType typeId="dc9175bd-5294-4e0d-856e-4ab44a95547a" valueTypeId="75efa74d-8b3c-4c7a-8b75-4e1c0e7f2212"/>
+    <listType typeId="971a0ead-581b-4670-ba33-78d08cfe8076" valueTypeId="2fda981f-f9bd-4a06-a6fb-093450191605"/>
+    <managerType typeId="6487590b-2b93-49d1-85e4-51a1fe1b974a" valueTypeId="c4f58d1e-1648-4502-8095-a85d77491822"/>
+    <recordSetType typeId="e1a381ba-c99c-4ff6-af42-c12c4492e765" valueTypeId="6dada323-d33c-492b-b8e2-1012d4eabb7c"/>
+    <recordKeyType typeId="f1331887-0846-4fbf-bffd-785cbc6f58a7" valueTypeId="cfe2b80b-b7cb-4134-b4f7-3a8b47ca6aba"/>
+    <recordType typeId="f3e4e9b1-0405-4741-8d0f-6d1b3e9b1930" valueTypeId="a31ae9eb-b426-4164-a6d1-af4d93748445"/>
+    <recordManagerType typeId="bd0421bb-a5c6-4285-b66b-82061f5ca7a7" valueTypeId="a281098a-02e3-47ba-bca6-bf0eef50b247"/>
+  </producedTypes>
+  <name>KPI_ВзаимосвязьЦелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимосвязь целей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="f962174e-8265-47dd-8530-242881cc64c3">
+    <name>Цель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Цели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8f23d423-79ea-4808-81c3-e354285bbedd">
+    <name>ЗависимаяЦель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимая цель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Цели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зависимая цель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="821dffcb-6045-4580-9924-26ffdf7ca8d9">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ПериодичностьПланирования</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

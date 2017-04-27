@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b858da4-c447-4e26-be77-fe22ccae55de">
+  <producedTypes>
+    <refType typeId="e9b47db9-2870-421c-bbcc-153cb5312a8e" valueTypeId="3c404191-9ad2-46da-ac13-0066216d9032"/>
+    <listType typeId="1ce28fdd-cdd4-46f4-8055-a07e7885de06" valueTypeId="a0b94b4b-c162-4048-93d1-d5daa95f19f7"/>
+    <managerType typeId="e9e20333-4d34-40b3-a7ea-98d65fa25d28" valueTypeId="9c00662e-6345-4b78-b0bd-5fe22810c160"/>
+  </producedTypes>
+  <name>KPI_ГраницыСостояния</name>
+  <synonym>
+    <key>ru</key>
+    <value>Границы состояния</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="396bb78e-8d88-4452-9181-babd35a31fed">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="93ac94e4-ca9e-4223-b239-a8eb2559ff5a">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e25e4c47-ac20-4550-901a-29fec4da5bc9">
+    <name>ВерхняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верхняя граница</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

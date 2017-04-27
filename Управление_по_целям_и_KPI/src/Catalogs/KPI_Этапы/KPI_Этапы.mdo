@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f9b463d-6f22-4536-9bc9-d7a98c4c4642">
+  <producedTypes>
+    <objectType typeId="eb4ed30e-6717-42d4-b840-2190537594d8" valueTypeId="7b5b0899-25fe-4d4e-a696-7bdec19cf65c"/>
+    <refType typeId="99d8332c-b72a-46bc-86a5-5beb1b9ff0fb" valueTypeId="1418e47d-5c1f-4e06-8230-02bc24e21829"/>
+    <selectionType typeId="1c03d1d2-2fbf-4986-ad0f-356e650e3f97" valueTypeId="ca93bb1e-648c-4afb-ba06-81fadebe1157"/>
+    <listType typeId="d78c262d-6cbd-4d7b-bfd9-4f287d748d4b" valueTypeId="fc39c2f6-fb6b-4428-807b-31aeb2bf13e0"/>
+    <managerType typeId="7d608a5b-2131-40d6-8486-397302effb03" valueTypeId="4e354b72-8171-4eca-9bcf-95dcbe708e2f"/>
+  </producedTypes>
+  <name>KPI_Этапы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Этапы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Этапы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.KPI_Проекты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

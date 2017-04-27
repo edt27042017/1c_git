@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a5ec8ec-e8fa-4e2c-8141-81dc3a8b0475">
+  <name>KPI_ИнтерфейсКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>KPI интерфейс клиент</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

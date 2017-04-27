@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0de33ae0-6335-4f4b-b77e-c98611686af2">
+  <producedTypes>
+    <objectType typeId="6c1a0286-2c71-4f0b-a4f6-4055a32afbd5" valueTypeId="d25e2e6a-5ac1-4a52-86b1-a2b84fde0c10"/>
+    <refType typeId="fe6f5381-d76a-4e13-bbca-5ae76472ba53" valueTypeId="3a7d74b4-a34b-484b-a92b-db791dde36d7"/>
+    <selectionType typeId="b919be57-a990-4b69-927d-2f26e30f3f86" valueTypeId="85fab3c2-2c6b-42bf-8516-0b2e5a2671f6"/>
+    <listType typeId="0b333c01-96bb-4d56-8178-31013c2a7c55" valueTypeId="27d82aa8-e8e9-4408-b1a0-653d3a998628"/>
+    <managerType typeId="2bd01aba-be22-43f8-b9de-1f7be3d0fc5b" valueTypeId="b3294b1d-56ef-4e1a-8659-b864c35bc775"/>
+  </producedTypes>
+  <name>KPI_Перспективы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перспективы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Перспективы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Перспективы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f1f5ce0-64dc-41b6-baac-ac35502630e8">
+  <name>KPI_СправочноНормативнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочно-нормативная информация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Администрирование, настройка, сервисные функции</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.KPI_СправочноНормативнаяИнформация</picture>
+  </picture>
+  <content>InformationRegister.KPI_СтруктураКомпании</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.KPI_Должности</content>
+  <content>Catalog.KPI_Квалификации</content>
+  <content>Catalog.KPI_ЕдиницыИзмерения</content>
+  <content>Catalog.KPI_ИнформационныеБазы</content>
+  <content>Catalog.KPI_ИсточникиДанных</content>
+  <content>InformationRegister.KPI_ПраваДоступа</content>
+  <content>CommonCommand.KPI_ПраваДоступаКОбъектам</content>
+  <content>Catalog.KPI_ЦелевыеПоказатели</content>
+  <content>CommonPicture.KPI_СправочноНормативнаяИнформация</content>
+  <content>DataProcessor.KPI_ОбновлениеИБ</content>
+  <content>CommonCommand.KPI_НастройкиСЛК</content>
+</mdclass:Subsystem>

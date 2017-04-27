@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ded19d2-c675-44a6-a9b8-7049b0e28720">
+  <producedTypes>
+    <selectionType typeId="075bf53a-3dde-4890-abc1-eabc66649209" valueTypeId="a65575da-f1df-477b-9c2c-d1db6af95dad"/>
+    <listType typeId="a7bde4b4-0c2c-4ff2-b66a-24f97f96967e" valueTypeId="16035d23-21c0-4250-be3b-d09c99ad69e7"/>
+    <managerType typeId="ea1d4043-aec5-4622-b7bc-3628ce3c975a" valueTypeId="5c26d369-80b9-466b-b787-7faa426ff85a"/>
+    <recordSetType typeId="20eb0043-41be-4410-bea6-9a8c6910549f" valueTypeId="839ec21a-82e8-4676-b53c-a48e39c51e0f"/>
+    <recordKeyType typeId="7ec95455-3254-4d66-8575-6e51fabac953" valueTypeId="bbc8fa66-6049-4f72-9748-952ee6c6343d"/>
+    <recordType typeId="c1561836-c464-4067-ad17-c24040c63d85" valueTypeId="38d11a1e-4b4a-4b0e-a081-4a2e04734523"/>
+    <recordManagerType typeId="77c31be6-9d08-4274-820d-5d5f2b097abb" valueTypeId="4ff37ee0-321b-44a7-8832-a35897ab229b"/>
+  </producedTypes>
+  <name>KPI_Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="ac3e662b-1fdd-43d1-bf91-bce070c82cd1">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Файл</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="fcedc4a2-3ac2-4e87-8ee4-e13f0821812a">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bed0c8f6-1ccb-4339-97f8-cf964b92a719">
+    <name>НазваниеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название файла</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Название файла</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

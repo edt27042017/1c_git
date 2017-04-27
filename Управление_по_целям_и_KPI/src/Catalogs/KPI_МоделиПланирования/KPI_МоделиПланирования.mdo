@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522da386-8617-4476-813c-879d388f7b9d">
+  <producedTypes>
+    <objectType typeId="da0a32d5-35b4-43ac-ae38-00cdc90b3d11" valueTypeId="7a83e987-5cf7-44a0-8846-85abf80ef358"/>
+    <refType typeId="4755e6f4-d52b-43b2-a45d-4ab3083c0c5a" valueTypeId="b95b57fc-296c-4d1c-b181-2e8d75202d13"/>
+    <selectionType typeId="9b2f62f3-b8f0-4c78-8a31-b21fdb6ea37a" valueTypeId="731c3a4b-f8e1-4811-a86c-b6cb9f872f38"/>
+    <listType typeId="eb1378a9-148c-42ca-bab0-4509253f4641" valueTypeId="c914d68e-3683-449a-9646-751c3215f52e"/>
+    <managerType typeId="ea36c55e-2f34-4d5b-8d27-077b0fbab41d" valueTypeId="f9ddcd21-e3a7-4261-9bbd-27283bdc38c5"/>
+  </producedTypes>
+  <name>KPI_МоделиПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели планирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_МоделиПланирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_МоделиПланирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ef26f4f4-e13c-410d-b8c0-23f738e05302">
+      <name>БазоваяМодель</name>
+      <description>Базовая модель</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_МоделиПланирования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.KPI_МоделиПланирования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.KPI_МоделиПланирования.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="5766b1d4-f3d0-49ad-bdb6-87460e3be060">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a6fc7909-46df-45b8-9318-65c89465d6aa">
+    <name>Квалификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квалификация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Квалификации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Квалификация</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="30355adf-9367-40a9-8f6e-d1858b0130e6">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="43866bbc-c1e7-4bd7-828d-1c4ce4e6e822">
+    <name>ИспользоватьПривязкуМоделиКСотруднику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать привязку модели к сотруднику</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать привязку модели к сотруднику</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="bc8ca71c-9e69-49d5-b0b0-31445dcedd14">
+    <producedTypes>
+      <objectType typeId="6b4027f9-b9b6-459d-a026-6662e6246ef0" valueTypeId="aecfc750-e210-442c-9a8a-a35718ab4419"/>
+      <rowType typeId="7da7ac63-989c-413a-be10-52ffdc0ed08e" valueTypeId="81c9d4e6-86d6-4d0b-ae12-64d233b10938"/>
+    </producedTypes>
+    <name>ДанныеМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные модели</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Данные модели</value>
+    </toolTip>
+    <attributes uuid="834aaf53-f091-437e-982e-47a2bbb84581">
+      <name>ЦелевойПоказатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Целевой показатель</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="70434297-427d-45aa-8f83-7d5bbd4476ca">
+      <name>НазваниеАналитики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название аналитики</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Название аналитики</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="818b5734-027d-46a3-b165-7cd8ad751701">
+      <name>КлючАналитики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ аналитики</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_КлючиАналитики</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ключ аналитики</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fb83c3f8-6659-4855-978b-9397770bb04c">
+      <name>План</name>
+      <synonym>
+        <key>ru</key>
+        <value>План</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>План</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7634f914-57da-4da3-9a49-6d6604af4b45">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24ef2815-cb5e-4e87-9908-48278f4b9393">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1ee9a368-7cef-40b9-bc4e-c67cdb9d9b8f">
+      <name>ВерхняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верхняя граница</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Верхняя граница</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="18b88fb8-92ca-4a8e-b0e8-f343d17148d9">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_СтруктураКомпании</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc3ec492-011c-454d-bc62-135a40ccb91d">
+      <name>ОтветственныйПредставление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ответственный представление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7f17c01e-0c0e-4b4b-91e3-9389d92de486">
+    <producedTypes>
+      <objectType typeId="8152b6b0-77e4-4238-9043-264cf4479f1e" valueTypeId="2ff7e534-01f1-40af-a2ce-f6827c62a406"/>
+      <rowType typeId="2ad1b393-76c4-41d1-b3c7-ffe1adfc0246" valueTypeId="b458cd87-4c32-4850-9883-7989d3dd9d57"/>
+    </producedTypes>
+    <name>Стандарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Стандарты</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </standardAttributes>
+    <attributes uuid="ddd1d4e5-b248-4ec4-bd47-a7f2121d40ee">
+      <name>Стандарт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандарт</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Стандарты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стандарт</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e7516d78-e780-4e5b-ba62-955b87b4bdc1">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вес</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fefbefcb-36fc-417a-ab58-63fe55291664">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c52b5e3-fb2d-49d3-892d-293cb76e1a1a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bad3367d-b898-4e10-9c50-c93e4f125c36">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

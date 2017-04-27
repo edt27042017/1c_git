@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15bb306e-3d04-4d87-b6ec-e787df3393e7">
+  <producedTypes>
+    <objectType typeId="3d2c29b6-c3f9-4261-aeb5-c94037bdf1b1" valueTypeId="4e9828b5-a582-40ea-95a9-246bbc8ebbe1"/>
+    <managerType typeId="43ce8f36-5eba-49ed-8609-16377de6b43f" valueTypeId="6ae65aa8-0413-4dee-bf30-1ecba0153527"/>
+  </producedTypes>
+  <name>KPI_ФормированиеСпискаСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование списка смарт задач</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.KPI_ФормированиеСпискаСмартЗадач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="de4aac79-8a09-4969-b99d-09d139b95e67">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6059f7cf-97f8-4818-b01d-b4f6f3d72b4b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

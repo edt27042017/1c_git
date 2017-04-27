@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a51535-e26e-487c-a82e-ddefff0f1d3b">
+  <name>KPI_УправлениеОценками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление оценками</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Управление оценками</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.KPI_УправлениеОценками</picture>
+  </picture>
+  <content>CommonCommand.KPI_ВиджетСтандарты</content>
+  <content>Catalog.KPI_ШкалыОценок</content>
+  <content>Catalog.KPI_Стандарты</content>
+  <content>Document.KPI_ВводОценокСтандартов</content>
+  <content>CommonPicture.KPI_УправлениеОценками</content>
+</mdclass:Subsystem>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf6ae586-f831-4c68-8411-81225e867920">
+  <producedTypes>
+    <refType typeId="010441ad-8d70-40a2-81ed-5a40be16c7dd" valueTypeId="61ffb4c3-a57a-4de7-ad8f-a001210d2f94"/>
+    <listType typeId="5e040561-1d3e-44b5-9449-6bf40d8584ee" valueTypeId="67f57cfe-8596-4eee-bd13-07a5be804c9e"/>
+    <managerType typeId="b733440f-237a-408c-8b8f-939a5403b8ca" valueTypeId="d534e893-5493-4870-a402-e974d8192455"/>
+  </producedTypes>
+  <name>KPI_ЭтапыВыполненияСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы выполнения смарт задач</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3ed98f9-39ed-4792-9e69-51dafaf3092b">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63711ea1-5b78-4d2f-9fe8-e3fec4befeb4">
+    <name>Утверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утверждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bf044dd8-18af-4049-835e-c7e0df35f2e8">
+    <name>Выполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7757b27d-554e-4cef-91b7-e6906d40a556">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d566d8ce-443b-4fff-8efa-1ffdd8e88b30">
+    <name>ОтменаУтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена утверждения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="398f1308-e818-4858-849d-c3e1307f71a7">
+    <name>ОтменаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена выполнения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8662bb56-cb6f-4920-8d33-b073d4fa1c31">
+    <name>ОтменаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена проверки</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="478cbcd8-0712-4ee6-b848-b76651071a41">
+    <name>Делегирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делегирование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

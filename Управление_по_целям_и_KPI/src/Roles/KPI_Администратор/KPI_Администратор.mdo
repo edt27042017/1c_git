@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1efb73eb-8d75-4f8e-9a36-2acc9673285d">
+  <name>KPI_Администратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор (KPI)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

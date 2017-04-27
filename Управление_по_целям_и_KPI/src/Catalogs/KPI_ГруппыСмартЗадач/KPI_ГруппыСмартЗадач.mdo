@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5808f018-1858-4605-9a21-5d53741ab033">
+  <producedTypes>
+    <objectType typeId="d30d5c92-f166-4987-aa8d-a0de91912cf4" valueTypeId="fee9c834-aacb-4c6b-9230-92bba055f6b1"/>
+    <refType typeId="642ee81c-f294-4290-94f7-c97cb356f0b0" valueTypeId="f97f9bc3-ddee-4256-a224-39dc69ec59ce"/>
+    <selectionType typeId="a92e5d31-2eb3-44f2-a294-68d3795c580f" valueTypeId="85054770-a802-4019-9668-d2506a16d4f7"/>
+    <listType typeId="4eef7dee-b791-46fb-a52c-e035e35987c6" valueTypeId="48b3b059-bb4a-49ac-ad1f-f303a05eee58"/>
+    <managerType typeId="07ba9251-c598-4964-9248-1c84a8141246" valueTypeId="ed5d4ad9-bdc3-4acc-8ee9-24976dcac86c"/>
+  </producedTypes>
+  <name>KPI_ГруппыСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы смарт-задач</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_ГруппыСмартЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_ГруппыСмартЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

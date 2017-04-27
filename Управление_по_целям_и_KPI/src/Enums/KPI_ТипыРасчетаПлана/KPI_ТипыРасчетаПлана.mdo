@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff3d5c43-6f35-4333-bd0e-f6ba056d4fb3">
+  <producedTypes>
+    <refType typeId="890c70cc-f582-4e85-9514-7b516bcadda7" valueTypeId="b435b4cc-9c85-41e6-8d54-3cd6bdf79f66"/>
+    <listType typeId="34102bdf-6a76-4341-87e7-57da323fb14e" valueTypeId="2dd96b7f-cfa4-483f-921b-c4bc4606e559"/>
+    <managerType typeId="0681f348-c299-4227-aa56-99ad90d1db20" valueTypeId="c3894ab7-7139-489a-b715-8c6effff80ef"/>
+  </producedTypes>
+  <name>KPI_ТипыРасчетаПлана</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы расчета плана</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c3d7b48-20c2-4491-8268-d7c9fe797672">
+    <name>Вручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вручную</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85a8a283-083b-4cb8-a2be-1a8c1569d56e">
+    <name>ПоФормуле</name>
+    <synonym>
+      <key>ru</key>
+      <value>По формуле</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

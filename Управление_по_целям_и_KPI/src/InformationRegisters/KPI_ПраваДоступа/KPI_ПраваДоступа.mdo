@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5276bfc7-c1c7-4b7c-ae9e-d3f5a3291d94">
+  <producedTypes>
+    <selectionType typeId="db423157-cef5-4138-8c5e-bc56d4a14d81" valueTypeId="12922fdf-c904-4d8e-bbe0-aace69ff3670"/>
+    <listType typeId="6e8e4b4d-4200-4a5a-85c2-6b288a2c0ed2" valueTypeId="5df7cbd3-64a1-4812-80fd-a3ae8cc9acd8"/>
+    <managerType typeId="c4c874bc-1a08-458f-a606-7220d3888143" valueTypeId="b71f3b21-e857-4303-9783-280bfb4a6479"/>
+    <recordSetType typeId="182bec9c-bd47-4b0e-9f40-cdf426c6ddd5" valueTypeId="ed32609b-a095-47f4-ab0f-96ecd0be92da"/>
+    <recordKeyType typeId="531d6959-30e3-4de7-9e0a-104058e74929" valueTypeId="6e622bc9-c12b-46e4-840b-85c757119ee6"/>
+    <recordType typeId="0b7e34e7-26bb-4131-b7a2-584e39bd0e76" valueTypeId="fe4c805e-a42f-4d35-9baa-07513247ab82"/>
+    <recordManagerType typeId="b73b9536-be88-4e45-bb98-007a03b81316" valueTypeId="cbb4ef2a-15aa-466d-802e-b40068b2f787"/>
+  </producedTypes>
+  <name>KPI_ПраваДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права доступа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="97fe5064-607c-4c12-a4a7-59fe8b598f38">
+    <name>Разрешить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешить</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="0b02be52-7cb6-48b2-8e46-68e15173701f">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ab9edb5-e50f-49a9-bba4-8bbc6453d27a">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+      <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресат</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a9c52d6d-c801-4df0-8a7b-227a6db3bb29">
+    <name>ВидПраваДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид права доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ВидыПравДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид права доступа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ce733949-af55-4967-9a2e-527b1e827cde">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

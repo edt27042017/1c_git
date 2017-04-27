@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2755a98-2c00-4893-8d51-39d19bc29dc5">
+  <producedTypes>
+    <selectionType typeId="64835c89-625e-466d-a60f-da767bcb9be9" valueTypeId="5c10819e-2eb8-4298-981a-2b75e6f00edb"/>
+    <listType typeId="b590ca8f-03f0-48e6-b8a5-b77e5b4f7119" valueTypeId="dcebb90e-015d-4a1c-a8ed-0104cebfef03"/>
+    <managerType typeId="fba5fa51-fc14-40e1-a359-8a2ecbf852bf" valueTypeId="277873a7-7371-4347-91d3-27aed17c4cc1"/>
+    <recordSetType typeId="76a10b67-c920-4ee0-aad2-25682264204d" valueTypeId="67052438-c564-4ae8-a6b0-541b12328b6d"/>
+    <recordKeyType typeId="7f301328-0812-441f-a9f3-635809eddde8" valueTypeId="ee76cd12-5d69-44b8-aa48-9e42df8d8e7b"/>
+    <recordType typeId="1068f8da-18fa-4f72-a597-007878f877cb" valueTypeId="e3c6443b-c175-488c-9d8a-265dc4a6e990"/>
+    <recordManagerType typeId="fb7172f9-56de-4423-93bd-09d1f2fbc330" valueTypeId="c4be681a-8e1f-4186-934d-ef0610caa5d9"/>
+  </producedTypes>
+  <name>KPI_ИсторияСмартЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>История смарт задач</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="284362bd-f0aa-48cc-bb75-632a46e20a37">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_СтруктураКомпании</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="b986f0c8-0452-498c-a853-67d194f6db92">
+    <name>Этап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ЭтапыВыполненияСмартЗадач</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Этап</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7926625a-3b21-4aff-a827-7e518a287dd4">
+    <name>СмартЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смарт задача</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.KPI_СмартЗадача</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Смарт задача</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

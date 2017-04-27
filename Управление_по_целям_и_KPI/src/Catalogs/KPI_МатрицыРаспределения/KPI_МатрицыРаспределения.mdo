@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d3c6f2-97b0-42f8-857e-363c9a848740">
+  <producedTypes>
+    <objectType typeId="3860269c-736b-4f43-9983-269bc3403e09" valueTypeId="ace0e013-66da-4efe-b94e-74ce565da5a1"/>
+    <refType typeId="7d168fca-ada7-4d04-bc79-7ad8d2b7f59e" valueTypeId="28291a42-86d9-404f-ab29-ad4a11545d85"/>
+    <selectionType typeId="e812f9ef-c379-490b-86e9-f16b3b931426" valueTypeId="1135879b-748e-4055-9de7-b948247a9a03"/>
+    <listType typeId="45880df3-2505-4429-ad5f-701f72979be0" valueTypeId="d63fc07a-5e51-4373-b514-d07f057b425c"/>
+    <managerType typeId="6e3f94d6-4532-4bae-80a2-af7e8f3867cd" valueTypeId="372a7ed3-d7b1-4af4-b12b-0ffc1c60fe7a"/>
+  </producedTypes>
+  <name>KPI_МатрицыРаспределения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Матрицы распределения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_МатрицыРаспределения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_МатрицыРаспределения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6167cdef-1e60-43d8-a4da-1380db6806e2">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6df39df4-653f-43ce-921d-5409b7126063">
+      <name>РасчетБазы</name>
+      <description>Расчет базы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_МатрицыРаспределения.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="e0f51d79-7a16-426b-b5c1-29aa4304b58d">
+    <producedTypes>
+      <objectType typeId="32e8bdbd-2aa2-49b4-981b-342dc7717cb5" valueTypeId="a610115c-6cda-4682-a36a-cdd02bdccf0a"/>
+      <rowType typeId="c9270ce3-91b9-4aea-8071-2f324850513a" valueTypeId="6ab677ee-4ca3-4251-8462-e9e4ccbd0d08"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </toolTip>
+    <attributes uuid="6b06460c-f4e1-46eb-bd38-9f7d8ea1b9d9">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Сотрудники</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="90e0b370-52a1-4693-980c-968640753a5b">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="61bd89a5-6c06-49e0-ad45-d34500d8b04b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

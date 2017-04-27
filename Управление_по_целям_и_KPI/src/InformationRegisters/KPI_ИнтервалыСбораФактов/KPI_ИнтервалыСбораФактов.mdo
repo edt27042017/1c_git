@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="597b7f77-a328-4f8e-a373-a18751018faa">
+  <producedTypes>
+    <selectionType typeId="66b2b97e-a2d5-4b5b-9686-3467867909db" valueTypeId="3ae5cca9-894c-4d41-8ab3-355d089c75ef"/>
+    <listType typeId="c3c5f2aa-e115-4601-a9c2-98ea372d04f7" valueTypeId="3eeb2108-38ba-4fab-9344-cf0197fbbb55"/>
+    <managerType typeId="061036d8-d049-49ae-808b-1ac3541ba760" valueTypeId="2f057a2b-0a8b-41f5-a70a-e036fdf79f7c"/>
+    <recordSetType typeId="c97332d0-629a-4d9e-8fbf-faed973f609f" valueTypeId="b962c7a2-495d-464e-933c-b26714ecb1cc"/>
+    <recordKeyType typeId="e8b6a696-31ca-4b76-9028-4e469badc34e" valueTypeId="423053bb-eb28-470e-a84c-7960eb6b71d1"/>
+    <recordType typeId="85d99165-d1cb-4baf-9cb3-0317642df061" valueTypeId="18626f47-31e3-4766-8a73-9fc2551c30de"/>
+    <recordManagerType typeId="280ecad9-be2a-4f39-82e9-5151867739fd" valueTypeId="bb946bcd-12f0-48e4-bd9c-b17eba6d2a85"/>
+  </producedTypes>
+  <name>KPI_ИнтервалыСбораФактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интервалы сбора фактов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="fb9d5058-868a-4164-930e-38bc6f677ada">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.KPI_ВводФактовВыполнения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="7347298f-51e8-4750-88f7-0b491f667f75">
+    <name>ЦелевойПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fbbf0ac6-50de-482e-8de8-5f96fbb1e223">
+    <name>ДатаНачалаИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала интервала</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8047aa77-3de2-4491-9c7c-5f86ca21f218">
+    <name>ДатаОкончанияИнтервала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания интервала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания интервала</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4dcbebfa-2e4b-4156-8b68-97fd6f791020">
+  <producedTypes>
+    <selectionType typeId="b2ddafac-750d-446d-b06f-2c1046c5c879" valueTypeId="f0c54180-022d-4376-a30e-d53b2e4d7245"/>
+    <listType typeId="69cb7798-8771-4b53-9506-a873fedf6fda" valueTypeId="16561069-6399-4677-b55b-4c0780d67e2a"/>
+    <managerType typeId="82102793-924c-488d-a848-dece980d84f5" valueTypeId="58ac2397-2e53-46bf-ad1d-adfc4eb78e70"/>
+    <recordSetType typeId="ecc42452-9dac-42e5-b036-396506f510ee" valueTypeId="0c456941-c583-432d-98fa-09d1c757ec90"/>
+    <recordKeyType typeId="66571dda-b55d-4a53-8a69-4574ca12800d" valueTypeId="bc6684c0-7c7a-4626-9a4d-445e4f516b5f"/>
+    <recordType typeId="d5120dbc-93fe-4dc2-86bd-49218e70da68" valueTypeId="3720c101-4ebf-4683-9b96-4a67b15e6582"/>
+    <recordManagerType typeId="2fda10e4-9474-4379-9cf7-0bf7d30fe01e" valueTypeId="800e7a9c-95dd-42e0-a53f-07253e583546"/>
+  </producedTypes>
+  <name>KPI_НастройкиПанелейВиджетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки панелей виджетов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="2c615785-8583-4836-a383-afc038e8df73">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+  </resources>
+  <dimensions uuid="3266f422-30c9-4864-9a4c-62206f223e33">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Владелец</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6eca31b-e8d7-4035-9de9-35f6ad83f8f2">
+    <name>ГруппаПанелей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа панелей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ГруппыПанелейВиджетов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа панелей</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9e6f84f3-61cc-4250-b730-73b6f7d1e234">
+    <name>НаименованиеПанели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование панели</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование панели</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                                                                                    </value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

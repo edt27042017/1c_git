@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e88f258c-8e2b-47b6-8f4b-24ad2edaeb9d">
+  <producedTypes>
+    <objectType typeId="dfaab645-9339-4016-b442-9f2e8d169c23" valueTypeId="37488cfc-c393-49c5-a593-74399293f86f"/>
+    <refType typeId="d25f1974-2cf8-40e4-9f1b-1ec370b203ed" valueTypeId="ba942234-36c0-48d3-b290-c251e67ff655"/>
+    <selectionType typeId="8ff633ec-520d-4379-87c1-5ee3afedfddb" valueTypeId="7f877ff8-2fbd-417e-8204-ab4a029119e9"/>
+    <listType typeId="adac2668-4ea8-4f34-941d-4c3d6b6a85b6" valueTypeId="ecedb8b8-95d6-4e3f-a9f6-a138ba02e17b"/>
+    <managerType typeId="60a4043b-85b0-4741-ba9a-dbe581c747a2" valueTypeId="508d7356-5c6d-47bf-a88e-ee2cd132c78c"/>
+  </producedTypes>
+  <name>KPI_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.KPI_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.KPI_Должности.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="a0460f6c-6799-40e8-b205-8887f17fab7d">
+    <producedTypes>
+      <objectType typeId="1ca73d91-f453-43fb-a6de-88ef1b05c1df" valueTypeId="b1e209a9-aa7a-4bff-8a25-a85d5b68a962"/>
+      <rowType typeId="613df511-af90-43dd-ad3a-8cf0d06500c4" valueTypeId="9ff81011-2fc5-4d02-b842-84b000f45f6d"/>
+    </producedTypes>
+    <name>ПлановыеНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановые начисления</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Плановые начисления</value>
+    </toolTip>
+    <attributes uuid="fbab1850-e1a6-4f8d-be8a-3a4ca889ca6e">
+      <name>Начисление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начисление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>ChartOfCalculationTypesRef.KPI_Начисления</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Начисление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26987d89-db0c-4ed9-979e-697e32a6da33">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a4a41ff8-51a7-4c82-b32c-16e97955f6c1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebd333de-036b-434c-bc2d-a9a202da775e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

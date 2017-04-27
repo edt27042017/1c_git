@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b040b8bb-7714-41f2-abb4-beafdbfaed9a">
+  <name>KPI_ДоступныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные отчеты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <explanation>
+    <key>ru</key>
+    <value>Доступные отчеты</value>
+  </explanation>
+</mdclass:CommonForm>

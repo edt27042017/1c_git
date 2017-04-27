@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44bb66a8-3660-4753-881e-d5fbc6290cf3">
+  <producedTypes>
+    <objectType typeId="79324b20-1cb5-45a1-9957-c95b7752528a" valueTypeId="42a5d6d2-7da6-4bc2-9a23-fd497acb6f20"/>
+    <refType typeId="002f606f-04db-4e32-8086-d91e3769e6ab" valueTypeId="249e59cd-a478-4992-a37e-8cbc6d388e3a"/>
+    <selectionType typeId="c80b89f6-4971-408d-95b2-535e5faccb50" valueTypeId="47b62eaa-106e-4cb4-89fd-2c68f1e91df2"/>
+    <listType typeId="a994939e-40f5-46a1-9775-8f0607e99ffa" valueTypeId="cf868b03-dc5f-4c20-840c-a21cafded382"/>
+    <managerType typeId="69bae47d-e2ce-4efc-9423-2630503257a8" valueTypeId="186bf882-fd5b-42e0-ade9-3bf93e60ff4d"/>
+  </producedTypes>
+  <name>KPI_Квалификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квалификации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.KPI_Квалификации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.KPI_Квалификации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

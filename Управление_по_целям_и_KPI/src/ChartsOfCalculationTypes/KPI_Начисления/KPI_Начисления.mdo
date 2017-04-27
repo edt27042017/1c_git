@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f4e79ea-a0f9-4e1e-8060-bbce69ba346b">
+  <producedTypes>
+    <objectType typeId="c18c92d5-193b-4fc6-be0c-bb8d667d9044" valueTypeId="2396c37c-4ad5-4db1-b5d7-7e0c15d40285"/>
+    <refType typeId="1e5ad762-2698-44ea-b4f9-dbdaccfb17e6" valueTypeId="483ead26-d8da-41e6-8c1b-46abc09f2b76"/>
+    <selectionType typeId="d2e45ec4-4099-49f5-b884-c325c620099d" valueTypeId="f840385c-cd81-4fe8-aaac-6d4f0c3b8ddb"/>
+    <listType typeId="c2742248-c590-450d-af2d-4ed8e8ad83a4" valueTypeId="f407f1c7-c2a9-4fe8-976d-6593e3341766"/>
+    <managerType typeId="f7b7f5d4-5e20-468e-9249-aa6f36e8a56f" valueTypeId="eeeef9f0-8d64-4e07-9554-e259916e7a0d"/>
+    <displacingCalculationTypesType typeId="5ecc3e95-22e2-4b3a-b539-40a3d30ed279" valueTypeId="d80b822d-8121-456e-a065-728e89f1b7a7"/>
+    <displacingCalculationTypesRowType typeId="c3095412-64dd-4868-bdc8-d5ffd2986732" valueTypeId="601c3b34-8b3e-46ea-8da2-7500c96dbf49"/>
+    <baseCalculationTypesType typeId="6e331273-6ff7-4f0c-a947-22c76fa460fd" valueTypeId="da3df4e0-592e-4d13-80ae-8e3ea4170b1e"/>
+    <baseCalculationTypesRowType typeId="3d4269f3-5ba4-4b5d-9972-0ed8706e02c4" valueTypeId="78eddd90-80d0-45fe-b71b-af49d58b3f6d"/>
+    <leadingCalculationTypesType typeId="923121f7-2286-478c-a32f-e2bc2ed7dd3f" valueTypeId="43e38115-e181-4e4e-9a8c-27b813a758ca"/>
+    <leadingCalculationTypesRowType typeId="7d4189a9-6758-4df2-8052-10f09f5b9050" valueTypeId="8f02c1dc-8930-44b2-a609-7556a83dd4cc"/>
+  </producedTypes>
+  <name>KPI_Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды начислений</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.KPI_Начисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.KPI_Начисления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCalculationTypes.KPI_Начисления.Form.ФормаВидаРасчета</defaultObjectForm>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.KPI_Начисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <attributes uuid="89a6c348-7f81-41b7-92b8-bfe28bdc4976">
+    <name>ФормулаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формула расчета</value>
+    </toolTip>
+    <mask></mask>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="cf0e1d90-6fc3-4930-9a99-149e6b81108a">
+    <name>ПериодРасчетаБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период расчета базы</value>
+    </synonym>
+    <comment>Текущий период заполняется положительными значениями, предыдущий - отрицательными, т. е. текущий месяц = 1, предудущий месяц = -1</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период расчета базы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5d9434de-513b-41d9-bca3-e2fb08ced06a">
+    <name>ТипРасчетаНачислений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет начислений</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.KPI_ТипыРасчетаНачислений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расчет начислений</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.KPI_ТипыРасчетаНачислений.EnumValue.ФиксированнойСуммой</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a14550b6-b0f3-4878-a25a-43b606238487">
+    <name>УчитыватьОтработанноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать отработанное время</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учитывать отработанное время</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="9a3515a9-e63d-4847-9dad-d70382384029">
+    <producedTypes>
+      <objectType typeId="4ecd3064-367a-4552-9dd1-f959c072e24c" valueTypeId="0eb16404-5072-4e5d-b688-5825db4ba5b3"/>
+      <rowType typeId="1f7e1bfc-20e4-4397-9c46-9c3bf2cee64b" valueTypeId="355228b1-d818-469a-9794-ff3589017f05"/>
+    </producedTypes>
+    <name>ПоказателиРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатели расчета</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатели расчета</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </standardAttributes>
+    <attributes uuid="0f226fbc-1b16-4b8d-8f01-3a260f369f0a">
+      <name>ПоказательРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПоказательРасчета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ПоказателиРасчета</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>ПоказательРасчета</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5276c709-e2a2-43cc-97f9-4e206d0564b2">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0d81f1a2-9877-4daa-8344-8bf761b3b9f0">
+    <producedTypes>
+      <objectType typeId="731c21a6-ea2b-4f2e-b280-865cb8498d22" valueTypeId="6c335c71-6e3e-4d42-87f1-897c41dd76e0"/>
+      <rowType typeId="f4382bf4-0719-4083-a269-c90afcff5755" valueTypeId="42d86315-9ecf-44db-936d-337eda88e5e8"/>
+    </producedTypes>
+    <name>ЦелевыеПоказатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевые показатели</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатели расчета</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </standardAttributes>
+    <attributes uuid="105a403d-a68f-411b-a1fa-d9a6f571c34c">
+      <name>ЦелевойПоказатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЦелевойПоказатель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>ЦелевойПоказатель</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6586ef17-ba03-4068-82d9-326b7597554a">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3548ee93-75ad-427d-9b36-b17b20ad519a">
+      <name>Ресурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.KPI_РесурсыЦелевогоПоказателя</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11d1a71a-87c0-4396-9608-e28868705885">
+      <name>Шкала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шкала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Шкалы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шкала</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5ae39fb-6d4b-4ada-99d6-96f32d54edec">
+      <name>МатрицаРаспределения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Матрица распределения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_МатрицыРаспределения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Матрица распределения</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82bfc82f-a5f1-43cb-a8f1-0a192b288eb8">
+      <name>НаименованиеФильтраАналитик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование фильтра аналитик</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование фильтра аналитик</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6301817-424c-4d1d-ba48-5a12f194115b">
+      <name>КлючАналитики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ аналитики</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_КлючиАналитики</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ключ аналитики</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4a88dbe8-31b8-41ca-a715-4d9d6a4c349e">
+    <producedTypes>
+      <objectType typeId="2d8a662f-9719-400f-b50a-c1e26c1958e6" valueTypeId="cccde46f-30f6-4213-8664-dca57b935c83"/>
+      <rowType typeId="66d0d7ae-b51f-4721-9436-9e359981ed1d" valueTypeId="491d0acc-036c-44c2-baf8-d867a3a54c88"/>
+    </producedTypes>
+    <name>ШкалыРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкалы расчета</value>
+    </synonym>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Шкалы расчета</value>
+    </toolTip>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:NullValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+    </standardAttributes>
+    <attributes uuid="0985ef4c-127c-455f-a12b-c66e6f0db95b">
+      <name>Шкала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шкала</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.KPI_Шкалы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Шкала</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b91a01c4-b2ad-4d5d-90d1-0e5f81b857ac">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:NullValue"/>
+      <maxValue xsi:type="core:NullValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="13e95f55-bd14-440d-a0ce-0b5c09853581">
+    <name>ФормаВидаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вида расчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCalculationTypes>

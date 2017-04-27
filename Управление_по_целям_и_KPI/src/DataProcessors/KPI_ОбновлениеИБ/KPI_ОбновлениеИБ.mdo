@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a38649aa-a584-4dfe-bf68-f2589257a7da">
+  <producedTypes>
+    <objectType typeId="61fc9f84-ec47-4a32-8ffe-43ce0a2fe6e5" valueTypeId="aafd4d38-ff70-4e15-ad2c-e52a939a8fcb"/>
+    <managerType typeId="722e8f23-b186-4d30-9ffd-b332cd7e3178" valueTypeId="1de62cf8-5491-4ac1-8d71-3ff2d5a0d6ad"/>
+  </producedTypes>
+  <name>KPI_ОбновлениеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление ИБ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:DataProcessor>

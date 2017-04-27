@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.KPI_ПраваДоступа.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>InformationRegister.KPI_СтруктураКомпании.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ЦелевыеПоказатели.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_Должности.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_Квалификации.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ЕдиницыИзмерения.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ИнформационныеБазы.StandardCommand.OpenList</commands>
+      <commands>Catalog.KPI_ИсточникиДанных.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.KPI_ПраваДоступаКОбъектам</commands>
+      <commands>InformationRegister.KPI_ПраваДоступа.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

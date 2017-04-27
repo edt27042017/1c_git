@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32a81bcb-34da-4434-a90f-65ee0808e135">
+  <name>KPI_СтратегическоеУправление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стратегическое управление</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Стратегическое управление</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.KPI_СтратегическоеУправление</picture>
+  </picture>
+  <content>Catalog.KPI_Перспективы</content>
+  <content>Catalog.KPI_Цели</content>
+  <content>CommonPicture.KPI_Стратегия</content>
+  <content>Document.KPI_ВзаимосвязиЦелей</content>
+  <content>Document.KPI_ОпределениеЦелей</content>
+  <content>Catalog.KPI_Проекты</content>
+  <content>CommonPicture.KPI_СтратегическоеУправление</content>
+</mdclass:Subsystem>

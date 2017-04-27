@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.KPI_УправлениеПоЦелям</subsystems>
+    <subsystems>Subsystem.KPI_УправлениеОценками</subsystems>
+    <subsystems>Subsystem.KPI_УправлениеПерсоналом</subsystems>
+    <subsystems>Subsystem.KPI_СтратегическоеУправление</subsystems>
+    <subsystems>Subsystem.KPI_СправочноНормативнаяИнформация</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

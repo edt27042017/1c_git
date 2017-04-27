@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a79ba9-af32-4cbb-8529-b565073287b1">
+  <producedTypes>
+    <selectionType typeId="ef59144d-5f36-45b9-850a-c56003490f22" valueTypeId="718e0c49-68da-4dd5-a0ae-dbc89c21a134"/>
+    <listType typeId="20073542-3907-474d-8b80-9dafbddaf5e8" valueTypeId="77d2c265-fcfb-4080-8983-8b5463384f71"/>
+    <managerType typeId="0fcf543b-f030-4c2a-a3c8-402a118019e0" valueTypeId="1dfc16bd-3d2c-4a29-b830-1020b9b56cc5"/>
+    <recordSetType typeId="0439fe24-8baf-422d-9c19-cfd1e900ce6f" valueTypeId="77ba8a3a-37d0-4a33-bd65-0762abf80a96"/>
+    <recordKeyType typeId="3230a053-4e3d-476d-9819-7d0ba90710bd" valueTypeId="bf04822d-754c-46fc-82b9-212f3213c76a"/>
+    <recordType typeId="a18f552f-8acd-498c-af6f-2d697b0b4dfa" valueTypeId="e3cf43d9-a050-4faa-a2a9-ca47bce4147d"/>
+    <recordManagerType typeId="ac571b21-b2e1-4719-96b3-270f085f4035" valueTypeId="2324e71d-6b6f-44ab-8976-3b29f541bdc5"/>
+  </producedTypes>
+  <name>KPI_СоответствиеЦелейИПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие целей и показателей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dimensions uuid="5f7ed7c0-1ba5-4cfe-bdc8-ae3d24a228ed">
+    <name>Цель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_Цели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Цель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8d451dd9-11e8-446a-8381-1f811be78099">
+    <name>ЦелевойПоказатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.KPI_ЦелевыеПоказатели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Целевой показатель</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:NullValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

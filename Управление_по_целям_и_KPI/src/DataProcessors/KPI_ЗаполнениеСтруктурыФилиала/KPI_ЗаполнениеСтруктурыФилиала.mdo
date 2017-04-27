@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="237f514d-9868-4a0a-ba02-c8cf5763c669">
+  <producedTypes>
+    <objectType typeId="f8392ccc-cf31-453a-ac5d-e3772ca9175a" valueTypeId="93400f29-bfdd-4eb9-a50c-5c4ec2973550"/>
+    <managerType typeId="e28847f3-59da-4e9c-b389-1b7b4486b22d" valueTypeId="9fac55c3-4437-45cb-a3fd-2fa9ec88a5d2"/>
+  </producedTypes>
+  <name>KPI_ЗаполнениеСтруктурыФилиала</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЗаполнениеСтруктурыФилиала</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.KPI_ЗаполнениеСтруктурыФилиала.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5c367af1-bdbe-467a-bb0d-7747470e602d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

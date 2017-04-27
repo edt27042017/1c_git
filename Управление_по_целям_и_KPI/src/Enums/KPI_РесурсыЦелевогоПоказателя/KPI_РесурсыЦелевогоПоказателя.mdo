@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2553f91-8388-4dfb-8c5a-e1254b3337a5">
+  <producedTypes>
+    <refType typeId="6b8aaeab-db97-4684-bbab-3711143437ee" valueTypeId="15b569c5-5b41-47f4-9857-b7639bf4ee8b"/>
+    <listType typeId="4afdc2ba-44c9-4a51-8b12-9e45553286a3" valueTypeId="a24b7f1e-152f-4655-a5fc-720c3f82cf6d"/>
+    <managerType typeId="e12c2120-c303-4b16-8a1a-06ae929d4d58" valueTypeId="de7ea22d-a96b-4cf4-b635-e45bdb2af51c"/>
+  </producedTypes>
+  <name>KPI_РесурсыЦелевогоПоказателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы целевого показателя</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c27d785e-4664-4126-ae56-3445bfdcb2f3">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3f839e47-58a8-4feb-b595-86b5588e5cf7">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dbf00940-e0b7-4d17-9292-a755c4b584a7">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4024c4a7-802f-4cc2-ba3e-9307f1eed27c">
+    <name>КПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПР</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="574e07e1-46af-4066-be54-a2051807bfbb">
+    <name>ПроцентВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>% выполнения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

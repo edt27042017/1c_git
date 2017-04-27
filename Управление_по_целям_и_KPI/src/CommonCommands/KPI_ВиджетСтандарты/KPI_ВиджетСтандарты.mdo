@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3db648ae-0d2a-4cd0-80ad-5245b78b5277">
+  <name>KPI_ВиджетСтандарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виджет стандарты</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Виджет стандарты</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

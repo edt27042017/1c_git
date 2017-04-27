@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f71b4f3-0b36-4699-8bc4-9bd6ad20b2e5">
+  <producedTypes>
+    <refType typeId="61571011-78af-4709-8f5a-7875157d8ef2" valueTypeId="2adbb03b-02c7-402f-9480-a28ccd3d103d"/>
+    <listType typeId="b1f3c706-6f00-4fc7-bc2b-0d6ee02c0e34" valueTypeId="0901f853-377f-4a19-b527-f1752298f063"/>
+    <managerType typeId="75294e9c-27a2-4e58-9873-175900234ce4" valueTypeId="efbbdb23-2d3b-48c5-9f33-54f1d8c8a395"/>
+  </producedTypes>
+  <name>KPI_ТипыПоказателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателя</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b69f51f0-e96e-4847-82ab-985ec9d5ef67">
+    <name>Оборотный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборотный</value>
+    </synonym>
+    <comment>Оборотный показатель учитывает значения за определенный период (принцип аналогичен остаточным и оборотным регистрам)</comment>
+  </enumValues>
+  <enumValues uuid="d86d3816-fd11-4d77-b87d-9beb36ff552d">
+    <name>Остаточный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаточный</value>
+    </synonym>
+    <comment>Остаточный показатель учитывает все значения от начала ведения учета до необходимой даты (принцип аналогичен остаточным и оборотным регистрам)</comment>
+  </enumValues>
+</mdclass:Enum>
